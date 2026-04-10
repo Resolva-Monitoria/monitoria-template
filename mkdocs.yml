@@ -26,7 +26,7 @@ extra:
       link: https://github.com/Monitoria-IFC-Araquari
       name: GitHub
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/ifc.oficial.araquari
+      link: https://www.instagram.com/monitoria.prog.araquari/
       name: Instagram
   generator: false
   
@@ -159,3 +159,11 @@ nav:
       - unidade2/index.md
     - Unidade 3 – Questões OBI:
       - unidade3/index.md
+  - Padrões de Codificação:
+    - Python:
+      - padroes/python/index.md
+      - Entradas e Saídas: padroes/python/entradas_e_saidas.md
+      - Vetores: padroes/python/vetores.md
+      - Dicionarios: padroes/python/dicionarios.md
+    - JavaScript:
+      - padroes/javascript/index.md
