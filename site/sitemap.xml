@@ -2,26 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/about/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/conteudo/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://VitorAndreSilva.github.io/monitoria-project/instalacao/linux/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://VitorAndreSilva.github.io/monitoria-project/instalacao/vscode/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://VitorAndreSilva.github.io/monitoria-project/instalacao/windows/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/unidade1/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/unidade2/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://VitorAndreSilva.github.io/monitoria-project/unidade3/</loc>
-         <lastmod>2026-04-09</lastmod>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>
