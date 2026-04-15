@@ -164,6 +164,6 @@ nav:
       - padroes/python/index.md
       - Entradas e Saídas: padroes/python/entradas_e_saidas.md
       - Vetores: padroes/python/vetores.md
-      - Dicionarios: padroes/python/dicionarios.md
+      - Dicionários: padroes/python/dicionarios.md
     - JavaScript:
       - padroes/javascript/index.md
