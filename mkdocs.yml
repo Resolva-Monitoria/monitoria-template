@@ -167,3 +167,4 @@ nav:
       - Dicionários: padroes/python/dicionarios.md
     - JavaScript:
       - padroes/javascript/index.md
+      - Entradas e Saídas: padroes/javascript/entradas_e_saidas.md
