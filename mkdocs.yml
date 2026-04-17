@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2026 Paulo Artur e Vitor André
 plugins:
   - search:
       lang: 
-        - pt
+        - pt-BR
         - en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - minify:
@@ -151,17 +151,16 @@ extra_javascript:
 
 nav:
   - Início: index.md
-  - Conteúdo do Curso:
-    - conteudo/index.md
-    - Unidade 1 – Introdução ao Python:
-      - unidade1/index.md
-    - Unidade 2 – Padrões de Codificação OBI:
-      - unidade2/index.md
-    - Unidade 3 – Questões OBI:
-      - unidade3/index.md
+
+  - Instalação do Python:
+    - Visão Geral: instalacao/index.md
+    - Instalação do Python no Linux: instalacao/linux/index.md
+    - Instalação do Python no Windows: instalacao/windows/index.md
+    - Instalação do Visual Studio Code: instalacao/vscode/index.md
+
   - Padrões de Codificação:
     - Python:
-      - padroes/python/index.md
+      - Visão Geral: padroes/python/index.md
       - Entradas e Saídas: padroes/python/entradas_e_saidas.md
       - Vetores: padroes/python/vetores.md
       - Dicionários: padroes/python/dicionarios.md
