@@ -166,7 +166,9 @@ nav:
       - Dicionários: padroes/python/dicionarios.md
 
   - Conteúdo do Curso:
-    - Unidade 1 - Entradas e Saídas
+    - Unidade 1 - Entradas e Saídas:
+      - Visão Geral: unidade-1/index.md
+      - 
     - Unidade 2 - Condicionais
     - Unidade 3 - Loops
     - Unidade 4 - Vetores
