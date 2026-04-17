@@ -1,84 +1,129 @@
 # Bem-vindo à Monitoria IFC Araquari
 
 > *"Programar é igual viver. Só se aprende a viver, vivendo..."*  
-> — Kennedy Araújo  
+> — Kennedy Araújo
 
 ---
 
 ## Sobre o projeto
 
-A **Monitoria de Informática do IFC Araquari** foi criada com o objetivo de apoiar os estudantes no desenvolvimento de habilidades fundamentais em programação, com foco na preparação para a Olimpíada Brasileira de Informática (OBI).
+A **Monitoria de Informática do IFC Araquari** é uma iniciativa educacional criada com o propósito de oferecer suporte contínuo aos estudantes no desenvolvimento de competências essenciais na área de programação e pensamento computacional. O projeto tem como foco principal a preparação dos alunos para a **Olimpíada Brasileira de Informática (OBI)**, promovendo um ambiente estruturado de aprendizado que integra teoria, prática e desafios progressivos.
 
-Este ambiente reúne materiais didáticos, listas de exercícios, conteúdos teóricos e práticos, além de desafios utilizados ao longo das aulas. A proposta é oferecer um espaço completo para estudo, prática e evolução contínua.
+Este ambiente virtual reúne um conjunto abrangente de recursos didáticos, incluindo:
 
-Ao utilizar este material, o estudante poderá aprimorar sua lógica de programação, desenvolver o pensamento computacional e adquirir maior autonomia na resolução de problemas.
+- **Materiais teóricos** sobre fundamentos da programação e algoritmos
+- **Listas de exercícios** organizadas por nível de dificuldade
+- **Desafios práticos** inspirados em edições anteriores da OBI
+- **Conteúdos complementares** sobre estruturas de dados e lógica computacional
+
+Ao utilizar este material, o estudante terá a oportunidade de aprimorar progressivamente sua capacidade de raciocínio lógico, consolidar o pensamento computacional e desenvolver autonomia para resolver problemas complexos de forma sistemática e eficiente.
 
 ---
 
 ## O que é a OBI?
 
-A **Olimpíada Brasileira de Informática (OBI)** é uma competição nacional que tem como objetivo estimular o raciocínio lógico, o pensamento computacional e o interesse pela área de computação.
+A **Olimpíada Brasileira de Informática (OBI)** é uma competição acadêmica de abrangência nacional, promovida anualmente pela Sociedade Brasileira de Computação (SBC). Seu principal objetivo é estimular o interesse pela área de computação, identificar talentos e promover o desenvolvimento de habilidades fundamentais para a ciência da computação e áreas correlatas.
 
-A OBI envolve desafios que abordam:
+Os desafios da OBI abrangem os seguintes domínios do conhecimento:
 
-- Lógica de programação  
-- Resolução de problemas  
-- Estruturas de dados  
-- Algoritmos  
-- Pensamento computacional  
+- **Lógica de programação** – compreensão e aplicação de estruturas lógicas na construção de soluções
+- **Resolução de problemas** – capacidade de interpretar enunciados, modelar situações e implementar algoritmos
+- **Estruturas de dados** – organização, armazenamento e manipulação eficiente de informações
+- **Algoritmos** – desenvolvimento de sequências otimizadas de instruções para solução de problemas
+- **Pensamento computacional** – abordagem sistemática baseada em decomposição, reconhecimento de padrões, abstração e design de algoritmos
 
-Além de promover o aprendizado, a olimpíada também incentiva a criatividade, a persistência e a capacidade de análise dos participantes.
+Além do aprendizado técnico, a OBI incentiva valores como criatividade, persistência diante de desafios, capacidade analítica e trabalho colaborativo, contribuindo para a formação integral dos participantes.
+
+Para mais informações, acesse o site oficial da OBI: [https://olimpiada.ic.unicamp.br](https://olimpiada.ic.unicamp.br)
 
 ---
 
-## Aulas da OBI
+## Aulas preparatórias para a OBI
 
-!!! info "Horário das aulas"
-    As aulas da OBI são realizadas semanalmente, com foco no desenvolvimento teórico e prático dos estudantes.
+As aulas destinadas à preparação dos estudantes para a Olimpíada Brasileira de Informática ocorrem semanalmente, em caráter regular, com encontros estruturados para abordar tanto os fundamentos teóricos quanto a prática intensiva de resolução de problemas no formato oficial da competição.
 
-    - Quintas-feiras  
-    - Período da tarde  
+**Horário das aulas**
 
-    Durante os encontros, são trabalhados conteúdos fundamentais, resolução de exercícios no padrão da olimpíada e estratégias para interpretação e solução de problemas.
+- **Dia:** Quintas-feiras
+- **Período:** Tarde
+
+**Conteúdo trabalhado nos encontros**
+
+- Fundamentos de lógica e algoritmos
+- Estruturas de controle e repetição
+- Vetores, matrizes e registros
+- Técnicas de busca e ordenação
+- Recursão e backtracking
+- Resolução comentada de problemas de edições anteriores da OBI
+- Estratégias para interpretação de enunciados e planejamento de soluções
+- Simulados com tempo cronometrado para ambientação ao formato da prova
 
 ---
 
 ## Equipe responsável
 
-!!! tip "Equipe de ensino"
-    O projeto conta com uma equipe dedicada ao acompanhamento e orientação dos estudantes:
+O projeto Monitoria de Informática e preparação para a OBI conta com uma equipe multidisciplinar dedicada ao acompanhamento pedagógico, orientação técnica e suporte contínuo aos estudantes ao longo de toda a jornada de aprendizado.
 
-    - Professor: Kennedy Araújo  
-    - Monitores:  
-        - Paulo Artur Pereira  
-        - Vitor André da Silva  
+**Professor responsável**
+
+- **Kennedy Araújo** – Docente responsável pelo planejamento curricular, desenvolvimento dos materiais e coordenação das atividades da monitoria e da preparação para a OBI.
+
+**Monitores**
+
+- **Paulo Artur Pereira** – Acompanhamento terças e quartas, suporte na resolução de exercícios e auxílio na compreensão de conceitos avançados.
+- **Vitor André da Silva** – Atendimento nas sextas, reforço em conteúdos específicos e apoio na preparação prática para desafios da OBI.
 
 ---
 
 ## Monitoria de Informática
 
-!!! note "Atendimento aos alunos"
-    A Monitoria de Informática é um espaço de apoio acadêmico voltado aos estudantes do curso técnico, com o objetivo de auxiliar no aprendizado e no desenvolvimento das atividades relacionadas à área de informática.
+A **Monitoria de Informática** é um espaço acadêmico de apoio destinado a todos os estudantes do curso técnico em Informática do IFC Araquari. O serviço tem como finalidade complementar o ensino formal, oferecendo um ambiente acolhedor e estruturado para esclarecimento de dúvidas, reforço de conteúdos e desenvolvimento de atividades práticas.
 
-    Durante a monitoria, os estudantes poderão:
+**O que o estudante pode fazer durante a monitoria**
 
-    - Tirar dúvidas sobre conteúdos das disciplinas  
-    - Reforçar conhecimentos em programação  
-    - Praticar exercícios e desenvolver lógica  
-    - Receber orientação nas atividades acadêmicas  
+- Esclarecer dúvidas pontuais ou recorrentes sobre disciplinas da área de informática
+- Reforçar conhecimentos em programação, algoritmos e estruturas de dados
+- Praticar exercícios complementares com acompanhamento individualizado
+- Desenvolver e depurar códigos com orientação direta
+- Receber orientação metodológica para realização de atividades acadêmicas
+- Preparar-se especificamente para os desafios da OBI com exercícios direcionados
 
-    Horários de atendimento:
+**Horários de atendimento**
 
-    - Terças e Quartas-feiras  
-    - Das 12h às 13h30  
+- **Terças-feiras:** das 12h00 às 13h30
+- **Quartas-feiras:** das 12h00 às 13h30
 
-    Local:
+**Local**
 
-    - Laboratório B2  
+- **Laboratório B2** – Bloco de Informática, Campus Araquari
+
+**Público-alvo**
+
+Estudantes regularmente matriculados no curso técnico em Informática do IFC Araquari, independentemente do nível de conhecimento prévio em programação.
 
 ---
 
-## Objetivo
+## Objetivos do projeto
 
-!!! success "Missão"
-    O principal objetivo da Monitoria de Informática é desenvolver a lógica de programação dos estudantes, promovendo autonomia na resolução de problemas e preparando-os tanto para a Olimpíada Brasileira de Informática quanto para os desafios do curso técnico e da futura atuação profissional.
+A Monitoria de Informática e o programa de preparação para a OBI têm como missão central o desenvolvimento da **lógica de programação** e do **pensamento computacional** nos estudantes, promovendo autonomia intelectual e capacidade técnica para enfrentar desafios acadêmicos e profissionais.
+
+**Objetivos específicos**
+
+- Consolidar os fundamentos da programação desde os níveis iniciais até conceitos intermediários e avançados
+- Capacitar os estudantes para participação qualificada na Olimpíada Brasileira de Informática
+- Desenvolver a habilidade de traduzir problemas do mundo real em soluções computacionais estruturadas
+- Estimular a prática regular de resolução de problemas como ferramenta principal de aprendizado
+- Promover a autonomia do estudante na busca por soluções e no aprendizado autodirigido
+- Preparar os alunos para os desafios técnicos do curso e para a atuação no mercado de tecnologia
+- Fomentar uma cultura de colaboração, persistência e melhoria contínua entre os participantes
+
+---
+
+## Contato e mais informações
+
+Para dúvidas, agendamentos ou informações adicionais, os estudantes podem procurar diretamente os monitores nos horários de atendimento ou entrar em contato com o professor responsável.
+
+**Links úteis**
+
+- [Site oficial da Olimpíada Brasileira de Informática](https://olimpiada.ic.unicamp.br)
+- [Portal do IFC Campus Araquari](https://araquari.ifc.edu.br)
