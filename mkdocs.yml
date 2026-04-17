@@ -26,7 +26,7 @@ extra:
       link: https://github.com/Monitoria-IFC-Araquari
       name: GitHub
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/ifc.oficial.araquari
+      link: https://www.instagram.com/monitoria.prog.araquari/
       name: Instagram
   generator: false
   
@@ -158,14 +158,9 @@ nav:
     - Instalação do Python no Windows: instalacao/windows/index.md
     - Instalação do Visual Studio Code: instalacao/vscode/index.md
 
-  - Conteúdo do Curso:
-      - Visão Geral: conteudo/index.md
-
-      - Unidade 1 – Introdução ao Python:
-          - Unidade 1: unidade1/index.md
-
-      - Unidade 2 – Padrões de Codificação OBI:
-          - Unidade 2: unidade2/index.md
-
-      - Unidade 3 – Questões OBI:
-          - Unidade 3: unidade3/index.md
+  - Padrões de Codificação:
+    - Python:
+      - Visão Geral: padroes/python/index.md
+      - Entradas e Saídas: padroes/python/entradas_e_saidas.md
+      - Vetores: padroes/python/vetores.md
+      - Dicionários: padroes/python/dicionarios.md
