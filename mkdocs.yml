@@ -153,23 +153,33 @@ nav:
   - Início: index.md
 
   - Instalação do Python:
-    - Visão Geral: instalacao/index.md
-    - Instalação do Python no Linux: instalacao/linux/index.md
-    - Instalação do Python no Windows: instalacao/windows/index.md
-    - Instalação do Visual Studio Code: instalacao/vscode/index.md
+    - Instalação:
+      - Visão Geral: instalacao/index.md
+      - Instalação do Python no Linux: instalacao/linux/index.md
+      - Instalação do Python no Windows: instalacao/windows/index.md
+      - Instalação do Visual Studio Code: instalacao/vscode/index.md
 
   - Padrões de Codificação:
-    - Python:
-      - Visão Geral: padroes/python/index.md
-      - Entradas e Saídas: padroes/python/entradas_e_saidas.md
-      - Vetores: padroes/python/vetores.md
-      - Dicionários: padroes/python/dicionarios.md
+      - Python:
+          - Visão Geral: padroes/python/index.md
+          - Entradas e Saídas: padroes/python/entradas_e_saidas.md
+          - Vetores: padroes/python/vetores.md
+          - Dicionários: padroes/python/dicionarios.md
 
   - Conteúdo do Curso:
-    - Unidade 1 - Entradas e Saídas:
-      - Visão Geral: unidade-1/index.md
-      - 
-    - Unidade 2 - Condicionais
-    - Unidade 3 - Loops
-    - Unidade 4 - Vetores
-    - Unidade 5 - Dicionários
+    - Conteúdo:
+      - Unidade 1 - Entradas e Saídas:
+          - Visão Geral: conteudo/unidade-1/index.md
+      - Unidade 2 - Condicionais: 
+        - Visão Geral: conteudo/unidade-2/index.md
+      - Unidade 3 - Loops: 
+        - Visão Geral: conteudo/unidade-3/index.md
+        - Fundamentos: 
+          - Visão Geral: conteudo/unidade-3/fundamentos/index.md
+          - For: conteudo/unidade-3/fundamentos/for.md
+          - While: conteudo/unidade-3/fundamentos/while.md
+          - Controle de Loop: conteudo/unidade-3/fundamentos/controle_loop.md
+      - Unidade 4 - Vetores: 
+        - Visão Geral: conteudo/unidade-4/index.md
+      - Unidade 5 - Dicionários: 
+        - Visão Geral: conteudo/unidade-5/index.md
