@@ -167,9 +167,16 @@ nav:
 
   - Conteúdo do Curso:
     - Unidade 1 - Entradas e Saídas:
-      - Visão Geral: unidade-1/index.md
-      - 
-    - Unidade 2 - Condicionais
-    - Unidade 3 - Loops
-    - Unidade 4 - Vetores
-    - Unidade 5 - Dicionários
+      - Visão Geral: conteudo/unidade-1/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-1/fundamentos/index.md
+        - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
+        - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
+    - Unidade 2 - Condicionais:
+      - Visão Geral: conteudo/unidade-2/index.md
+    - Unidade 3 - Loops:
+      - Visão Geral: conteudo/unidade-3/index.md
+    - Unidade 4 - Vetores:
+      - Visão Geral: conteudo/unidade-4/index.md
+    - Unidade 5 - Dicionários:
+      - Visão Geral: conteudo/unidade-5/index.md

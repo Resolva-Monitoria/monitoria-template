@@ -20,6 +20,5 @@ Ao final desta seção, você deverá ser capaz de:
 
 ## Trilhas da Seção
 
-- [Entrada de Dados](entrada.md)
 - [Saída de Dados](saida.md)
-- [Múltiplos Inputs](multiplas_entradas.md)
+- [Entrada de Dados](entrada.md)
