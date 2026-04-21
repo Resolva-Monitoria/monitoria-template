@@ -1,26 +1,46 @@
 # Exercícios Resolvidos
 
-Em programação competitiva, aprender apenas a teoria não basta.  
-É importante praticar com exercícios para entender como aplicar laços de repetição em diferentes situações.
+Aprender apenas a teoria não basta. É importante praticar com exercícios para entender como aplicar laços de repetição em diferentes situações.
 
-**Exercício resolvido**:  
-problema explicado passo a passo, mostrando lógica e código final.
+Nesta seção, vemos problemas da OBI explicados passo a passo, mostrando:
+- O enunciado do problema
+- A lógica de resolução
+- O código final comentado
 
-**Prática guiada**:  
-forma de aprender observando a solução e entendendo cada etapa.
+---
 
-Nesta seção, veremos exemplos simples usando `for` e `while`, focando no raciocínio necessário para resolver problemas.
-
-## Objetivo:
+## Objetivo
 
 Ao final desta seção, você deverá ser capaz de:
 
-- interpretar problemas simples com repetição
-- resolver exercícios usando `for`
-- resolver exercícios usando `while`
-- analisar entradas e saídas corretamente
+- Interpretar problemas com repetição
+- Resolver exercícios usando `for`
+- Resolver exercícios usando `while`
+- Analisar entradas e saídas corretamente
 
-## Trilhas da Seção
+---
 
-- [Exercícios com for](for.md)
-- [Exercícios com while](while.md)
+## Navegação
+
+| Tema | Descrição |
+|------|-----------|
+| [Exercício com for](./for.md) | Problema "Cálculo Rápido" (OBI 2021) |
+| [Exercício com while](./while.md) | Problema "Dona Lesma" (OBI 2020) |
+
+---
+
+## Como usar este material
+
+1. **Leia o problema**: Entenda o que é solicitado
+2. **Analise os exemplos**: Veja entrada e saída esperada
+3. **Entenda a lógica**: Não copie, entenda o raciocínio
+4. **Teste o código**: Execute com os exemplos da questão
+
+---
+
+## Fluxo de aprendizagem sugerido
+
+1. Aprenda a teoria nos [Fundamentos](../fundamentos/)
+2. Veja um exemplo resolvido com `for`
+3. See um exemplo resolvido with `while`
+4. [Pratique](../treinar/) com mais exercícios

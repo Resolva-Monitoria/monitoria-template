@@ -1,8 +1,8 @@
-# Exercício Resolvido com `for`
+# Exercício Resolvido: Cálculo Rápido
 
-## Problema: Cálculo Rápido (OBI 2021)
+## Problema: Cálculo Rápido (OBI 2021 - Fase 2)
 
-🔗 Link oficial: https://olimpiada.ic.unicamp.br/pratique/p1/2021/f2/calculo/
+🔗 [Link oficial](https://olimpiada.ic.unicamp.br/pratique/p1/2021/f2/calculo/)
 
 ---
 
@@ -18,25 +18,25 @@ Conte quantos números entre `A` e `B` possuem soma dos dígitos igual a `S`.
 
 ---
 
-## Exemplo de Entrada
+## Exemplo
 
-```text
+**Entrada**
+```
 3
 10
 30
 ```
 
-## Exemplo de Saída
-
-```text
+**Saída**
+```
 3
 ```
 
-Porque os números são: 12, 21, 30
+Os números são: 12, 21, 30
 
 ---
 
-## Resolução Passo a Passo
+## Resolução
 
 ```python
 s = int(input())
@@ -59,9 +59,9 @@ print(contador)
 
 ---
 
-## Explicação Linha por Linha
+## Explicação
 
-### 1. Ler os valores
+### 1. Ler valores
 
 ```python
 s = int(input())
@@ -69,136 +69,81 @@ a = int(input())
 b = int(input())
 ```
 
-O programa lê:
+- `s` = soma desejada
+- `a` = início do intervalo
+- `b` = fim do intervalo
 
-- valor desejado da soma dos dígitos (s)
-- começo do intervalo (a)
-- final do intervalo (b)
-
-Se entrada for:
-
-```
-3
-10
-30
-```
-
-Então:
-
-- s = 3
-- a = 10
-- b = 30
-
-### 2. Criar contador
-
-```python
-contador = 0
-```
-
-Essa variável guarda quantos números corretos encontramos.
-Começa em 0.
-
-### 3. Percorrer os números
+### 2. Percorrer números do intervalo
 
 ```python
 for numero in range(a, b + 1):
 ```
 
-Vai testar todos os números de a até b.
+O `range(a, b + 1)` gera: a, a+1, ..., b
 
-Se:
-
-- a = 10
-- b = 15
-
-O laço percorre: 10, 11, 12, 13, 14, 15
-
-### 4. Resetar soma dos dígitos
+### 3. Para cada número, calcular soma dos dígitos
 
 ```python
 soma = 0
-```
-
-Cada número precisa começar com soma zerada.
-
-Exemplo: Para testar 12, começa: soma = 0
-
-### 5. Percorrer cada dígito
-
-```python
 for digito in str(numero):
+    soma += int(digito)
 ```
 
-Transformamos o número em texto.
+- Transforma o número em string
+- Percorre cada caractere (dígito)
+- Converte de volta para int e soma
 
-Exemplo:
+Exemplo para número 12:
+- Primeira iteração: soma = 0 + 1 = 1
+- Segunda iteração: soma = 1 + 2 = 3
 
-- numero = 12
-- str(numero) = "12"
-
-Agora o laço percorre: "1", "2"
-
-### 6. Somar os dígitos
-
-```python
-soma += int(digito)
-```
-
-Transforma cada caractere em número e soma.
-
-Para 12:
-
-- Primeira volta: digito = "1", soma = 0 + 1 = 1
-- Segunda volta: digito = "2", soma = 1 + 2 = 3
-
-Resultado final: soma = 3
-
-### 7. Verificar se bate com S
+### 4. Verificar se soma bate com S
 
 ```python
 if soma == s:
+    contador += 1
 ```
 
-Se:
-
-- soma = 3
-- s = 3
-
-Então: contador += 1
-
----
-
-## Simulação Completa
-
-**Entrada:**
-
-```
-3
-10
-15
-```
-
-| Número | Soma dos Dígitos | Conta? |
-|--------|-----------------|--------|
-| 10     | 1               | ❌     |
-| 11     | 2               | ❌     |
-| 12     | 3               | ✅     |
-| 13     | 4               | ❌     |
-| 14     | 5               | ❌     |
-| 15     | 6               | ❌     |
-
-**Resultado:** contador = 1
-
-### 8. Mostrar resposta
+### 5. Mostrar resultado
 
 ```python
 print(contador)
 ```
 
-Saída:
+---
 
-```
-1
-```
+## Simulação
+
+**Entrada:** s=3, a=10, b=15
+
+| Número | Soma dos Dígitos | Conta? |
+|--------|------------------|--------|
+| 10     | 1                | ❌     |
+| 11     | 2                | ❌     |
+| 12     | 3                | ✅     |
+| 13     | 4                | ❌     |
+| 14     | 5                | ❌     |
+| 15     | 6                | ❌     |
+
+**Resultado:** 1
 
 ---
+
+## Conceitos utilizados
+
+| Conceito | Onde foi usado |
+|----------|---------------|
+| `for` externo | Percorre números do intervalo |
+| `for` interno | Percorre dígitos do número |
+| `range()` | Gera sequência de números |
+| `str()` | Converte número para string |
+| `int()` | Converte caractere para número |
+| Condição | Verifica se soma == S |
+
+---
+
+## Próximos Passos
+
+- [Praticar com for](../treinar/for.md)
+- [Ver exercício com while](./while.md)
+- [Voltar para índice](../resolvidos/index.md)

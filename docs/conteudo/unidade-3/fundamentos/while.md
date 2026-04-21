@@ -1,29 +1,42 @@
 # Laço `while`
 
-O laço `while` é uma estrutura de repetição usada quando queremos executar um bloco de código **enquanto uma condição for verdadeira**.
-
-Ele é muito útil quando **não sabemos exatamente quantas vezes** a repetição acontecerá.
+O laço `while` é uma estrutura de repetição usada quando queremos executar um bloco de código **enquanto uma condição for verdadeira**. É ideal quando **não sabemos exatamente quantas vezes** a repetição ocorrerá.
 
 ---
 
-## Sintaxe básica:
+## Quando usar `while`?
+
+| Situação | Exemplo |
+|----------|---------|
+| Não sabemos quantas vezes repetir | Ler até digitar 0 |
+| Repetir até condição mudar | Subir até atingir o topo |
+| Loop com parada indefinida | Processar até acabarem os dados |
+| Validação de entrada | Pedir novamente até digitar válido |
+
+---
+
+## Sintaxe básica
 
 ```python
 while condição:
     # bloco de código
 ```
 
-Enquanto a condição for verdadeira `(True)`, o código continuará repetindo.
+Enquanto a condição for verdadeira (`True`), o código continuará repetindo.
 
-## Exemplo simples
-```
+---
+
+## Exemplo: Contador crescente
+
+```python
 contador = 1
 
 while contador <= 5:
     print(contador)
     contador += 1
 ```
-Saída:
+
+**Saída:**
 ```
 1
 2
@@ -32,42 +45,24 @@ Saída:
 5
 ```
 
-## O cuidado com loop infinito:
+---
 
-Se a condição nunca ficar falsa, o laço nunca termina.
+## Cuidado: Loop infinito
 
-```
+Se a condição nunca ficar falsa, o laço nunca termina:
+
+```python
 while True:
-    print("Olá")
-```
-Esse código repete para sempre.
-
-## Contador crescente:
-
-```
-i = 0
-
-while i < 10:
-    print(i)
-    i += 1
-```
-Saída:
-```
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
+    print("Olá")  # repete para sempre!
 ```
 
-## Contador decrescente:
+> **Sempre** tenha uma forma de sair do loop.
 
-```
+---
+
+## Contador decrescente
+
+```python
 i = 10
 
 while i > 0:
@@ -75,8 +70,7 @@ while i > 0:
     i -= 1
 ```
 
-Saída:
-
+**Saída:**
 ```
 10
 9
@@ -90,9 +84,11 @@ Saída:
 1
 ```
 
-## Somando valores:
+---
 
-```
+## Somando valores
+
+```python
 i = 1
 soma = 0
 
@@ -100,23 +96,27 @@ while i <= 5:
     soma += i
     i += 1
 
-print(soma)
+print(soma)  # 15
 ```
-Saída:
-```
-15
-```
-## Lendo dados até condição parar:
-```
+
+---
+
+## Ler até condição
+
+```python
 numero = 1
 
 while numero != 0:
     numero = int(input("Digite um número (0 para sair): "))
 ```
-O programa só termina quando digitar `0`.
 
-## Menu interativo:
-```
+O programa só termina quando o usuário digitar `0`.
+
+---
+
+## Menu interativo
+
+```python
 opcao = -1
 
 while opcao != 0:
@@ -126,34 +126,36 @@ while opcao != 0:
 
     opcao = int(input("Escolha: "))
 ```
-Muito usado em sistemas e jogos.
 
-## Usando `break`:
+---
 
-Encerra o laço imediatamente.
-```
+## Controle de loop
+
+### `break` — Encerra imediatamente
+
+```python
 while True:
-    texto = input("Digite sair: ")
+    texto = input("Digite 'sair' para terminar: ")
 
     if texto == "sair":
         break
 ```
 
-## Usando `continue`:
+### `continue` — Pula para próxima iteração
 
-Pula a repetição atual.
-```
+```python
 i = 0
 
 while i < 5:
     i += 1
 
     if i == 3:
-        continue
+        continue  # pula o 3
 
     print(i)
 ```
-Saída:
+
+**Saída:**
 ```
 1
 2
@@ -161,9 +163,13 @@ Saída:
 5
 ```
 
-## Percorrendo string:
+---
 
-```
+## Percorrendo com índice
+
+### String
+
+```python
 texto = "Python"
 i = 0
 
@@ -172,10 +178,10 @@ while i < len(texto):
     i += 1
 ```
 
-## Percorrendo lista:
-```
-valores = [10, 20, 30]
+### Lista
 
+```python
+valores = [10, 20, 30]
 i = 0
 
 while i < len(valores):
@@ -183,13 +189,34 @@ while i < len(valores):
     i += 1
 ```
 
-## Quando usar `while`?
+---
+
+## Quando usar `for` ou `while`?
 
 | Situação | Recomendado |
 |----------|-------------|
-| Não sabemos quantas vezes repetir | `while` |
-| Repetir até condição mudar | `while` |
-| Contagem com parada indefinida | `while` |
 | Já sabemos o número de vezes | `for` |
+| Não sabemos quantas vezes | `while` |
+| Repetir até condição mudar | `while` |
+| Processar sequência Known size | `for` |
 
 ---
+
+## Próximos Passos
+
+Pratique com:
+
+- [Exercício resolvido com while](../resolvidos/while.md)
+- [Praticar com while](../treinar/while.md)
+- [Laço for](./for.md) — para repetições controladas
+
+---
+
+## Resumo
+
+| Conceito | Descrição |
+|----------|------------|
+| `while` | Repetição enquanto condição é verdadeira |
+| `break` | Encerra o loop imediatamente |
+| `continue` | Pula para próxima iteração |
+| Loop infinito | Cuidado! Sempre tenha condição de parada |
