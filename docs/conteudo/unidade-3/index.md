@@ -16,11 +16,18 @@ Ao final, você deverá ser capaz de:
 
 ## Estrutura da Unidade:
 
-### [Fundamentos](../unidade-3/fundamentos/index.md)
-Introdução aos conceitos de entrada e saída de dados.
+### [Fundamentos](./fundamentos/index.md)
+Conceitos teóricos sobre laços de repetição.
 
-### Problemas OBI Resolvidos
-Aplicação dos conceitos em problemas reais.
+### [Exercícios Resolvidos](./resolvidos/index.md)
+Problemas da OBI explicados passo a passo.
 
-### Exercícios
-Lista de exercício para prática.
+### [Praticar](./treinar/index.md)
+Atividades da OBI para treinar.
+
+---
+
+## Trilhas da Unidade
+
+- [Laço for](./fundamentos/for.md)
+- [Laço while](./fundamentos/while.md)

@@ -16,10 +16,8 @@ Ao final desta seção, você deverá ser capaz de:
 
 - usar for com range()
 - usar while com condições
-- controlar loops com break e continue
 
 ## Trilhas da Seção
 
 - [for](for.md)
 - [while](while.md)
-- [Controle de Loops](controle_loop.md)

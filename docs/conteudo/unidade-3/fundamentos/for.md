@@ -39,7 +39,7 @@ for i in range(1, N+1):
 print(soma)
 ```
 
-## Percorrendo caracteres de uma string
+## Percorrendo caracteres de uma string:
 
 ```python
 
@@ -58,7 +58,7 @@ I
 2
 4
 ```
-## Percorrendo listas (útil para múltiplos valores na entrada)
+## Percorrendo listas (útil para múltiplos valores na entrada):
 
 ```python
 
@@ -67,7 +67,7 @@ for v in valores:
     print(v * 2)   # 20, 40, 60, 80
 ```
 
-## O identificador descartável `_`
+## O identificador descartável `_`:
 
 Quando você não precisa usar o valor da variável de controle, use _ para indicar que ela é descartável. Isso é muito comum ao repetir algo N vezes sem precisar do contador.
 
@@ -78,7 +78,7 @@ for _ in range(N):
     print("OBI")   # repete a mensagem N vezes
 ```
 
-## Acumuladores: somar e contar
+## Acumuladores: somar e contar:
 
 Contar quantos números são pares:
 
@@ -92,7 +92,7 @@ for i in range(10):
 print(pares)
 ```
 
-Soma total:
+## Soma total:
 
 ```python
 
@@ -101,5 +101,3 @@ for _ in range(5):
     total += int(input())
 print(total)
 ```
-
-No próximo arquivo, veremos o laço while, usado quando a repetição depende de uma condição que pode mudar durante a execução.

@@ -178,7 +178,14 @@ nav:
           - Visão Geral: conteudo/unidade-3/fundamentos/index.md
           - For: conteudo/unidade-3/fundamentos/for.md
           - While: conteudo/unidade-3/fundamentos/while.md
-          - Controle de Loop: conteudo/unidade-3/fundamentos/controle_loop.md
+        - Exercícios Resolvidos:
+          - Visão Geral: conteudo/unidade-3/resolvidos/index.md
+          - For: conteudo/unidade-3/resolvidos/for.md
+          - While: conteudo/unidade-3/resolvidos/while.md
+        - Para Treinar:
+          - Visão Geral: conteudo/unidade-3/treinar/index.md
+          - For: conteudo/unidade-3/treinar/for.md
+          - While: conteudo/unidade-3/treinar/while.md
       - Unidade 4 - Vetores: 
         - Visão Geral: conteudo/unidade-4/index.md
       - Unidade 5 - Dicionários: 
