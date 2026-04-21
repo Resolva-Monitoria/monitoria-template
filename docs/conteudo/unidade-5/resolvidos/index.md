@@ -27,6 +27,22 @@ Ao final desta seção, você deverá ser capaz de:
 
 ---
 
+## Problema Detalhado
+
+### Anagrama — OBI 2021 Fase 2
+
+🔗 [Link oficial](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/anagrama/)
+
+Dadas duas palavras, determine se são anagramas.
+
+| Informação | Descrição |
+|-----------|----------|
+| Tema | Contagem de caracteres |
+| Conceito | Dicionários |
+| Dificuldade | Difícil |
+
+---
+
 ## Como usar este material
 
 1. **Leia o problema**: Entenda o que é solicitado
@@ -39,5 +55,16 @@ Ao final desta seção, você deverá ser capaz de:
 ## Fluxo de aprendizagem sugerido
 
 1. Aprenda a teoria nos [Fundamentos](../fundamentos/)
-2. Veja um exemplo resolvido
+2. Veja um exemplo detalhado com o problema Anagrama
 3. [Pratique](../treinar/) com mais exercícios
+
+---
+
+## Conceitos-Chave
+
+| Conceito | Aplicação |
+|----------|-----------|
+| `dict.get(chave, 0)` | Contagem segura |
+| `dict == dict` | Comparar dicionários |
+| `.items()` | Iterar sobre pares |
+| `all()` | Verificar condições |

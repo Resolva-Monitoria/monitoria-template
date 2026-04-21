@@ -13,6 +13,18 @@ A melhor forma de aprender dicionários é resolvendo problemas reais. Aqui voc�
 
 ---
 
+## Estrutura de Prática
+
+### [Praticar com Dicionários](./dicionario.md)
+Atividades específicas para treinar manipulação de dicionários.
+
+| Nível | Quantidade |
+|-------|------------|
+| Fácil | 3 problemas |
+| Difícil | 3 problemas |
+
+---
+
 ## Atividades Recomendadas
 
 ### Nível Fácil
@@ -52,3 +64,13 @@ Problemas que exigem mais raciocínio e lógica. Recomendado após dominar os f�
 2. Veja exemplos → [Exercícios Resolvidos](../resolvidos/)
 3. Pratique aqui → **Praticar** *(página atual)*
 4. Repita até dominar
+
+---
+
+## Navegação
+
+| Seção | Descrição |
+|-------|-----------|
+| [Fundamentos](../fundamentos/basico.md) | Conceitos básicos |
+| [Resolvidos](../resolvidos/problema.md) | Exercício detalhado |
+| [Praticar](./dicionario.md) | Atividades com dicionários |

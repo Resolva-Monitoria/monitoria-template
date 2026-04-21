@@ -1,8 +1,8 @@
-# Anagrama — OBI 2021
+# Exercício Resolvido: Anagrama
 
-Neste problema, precisamos verificar se duas palavras são anagramas (têm as mesmas letras com a mesma frequência).
+## Problema: Anagrama (OBI 2021 - Fase 2)
 
-> **Link do problema:** [Anagrama - OBI 2021 Fase 2](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/anagrama/)
+🔗 [Link oficial](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/anagrama/)
 
 ---
 
@@ -10,45 +10,25 @@ Neste problema, precisamos verificar se duas palavras são anagramas (têm as me
 
 Dadas duas palavras, escreva um programa para determinar se elas são anagramas.
 
- Uma palavra A é um anagrama de outra palavra B se podemos transformar a palavra A na palavra B apenas trocando de lugar suas letras.
+Uma palavra A é um anagrama de outra palavra B se podemos transformar a palavra A na palavra B apenas trocando de lugar suas letras.
 
 ---
 
-## Exemplos
+## Exemplo
 
-**Entrada:**
+**Entrada**
 ```
 4
 a a b b
 a b a b
 ```
 
-**Saída:**
+**Saída**
 ```
 S
 ```
 
-**Entrada:**
-```
-3
-a b c
-a a b
-```
-
-**Saída:**
-```
-N
-```
-
----
-
-## Análise do problema
-
-Para verificar se duas palavras são anagramas, precisamos:
-1. Contar quantas vezes cada letra aparece em cada palavra
-2. Comparar as contagens
-
-Dicionário é perfeito para isso!
+**Explicação:** Ambas as palavras têm duas letras 'a' e duas letras 'b'.
 
 ---
 
@@ -78,9 +58,21 @@ else:
 
 ---
 
-## Explicação do código
+## Explicação
 
-### Passo 1: Contagem
+### 1. Ler entrada
+
+```python
+N = int(input())
+palavra1 = input().split()
+palavra2 = input().split()
+```
+
+- `N` = número de pares de palavras
+- `palavra1` = primeira palavra (convertida em lista de caracteres)
+- `palavra2` = segunda palavra
+
+### 2. Contar frequência com dicionário
 
 ```python
 contagem1 = {}
@@ -88,23 +80,61 @@ for letra in palavra1:
     contagem1[letra] = contagem1.get(letra, 0) + 1
 ```
 
-- Se a letra não existe no dicionário, `.get()` retorna 0
-- Adicionamos 1 à contagem
-- Exemplo: `a a b b` → `{'a': 2, 'b': 2}`
+- Cria um dicionário vazio
+- Para cada letra, incrementa a contagem
+- `.get(letra, 0)` retorna 0 se a chave não existir
 
-### Passo 2: Comparação
+**Exemplo:** `['a', 'a', 'b', 'b']` → `{'a': 2, 'b': 2}`
+
+### 3. Comparar dicionários
 
 ```python
 if contagem1 == contagem2:
+    print("S")
+else:
+    print("N")
 ```
 
-- Se ambos dicionários tiverem as mesmas chaves com os mesmos valores, são anagramas
+- Se os dicionários forem iguais, são anagramas
+- A comparação verifica se todas as chaves e valores são iguais
 
 ---
 
-## Versão simplificada
+## Simulação
 
-Podemos usar um dicionário para contar e depois comparar:
+**Entrada:** N=4, palavra1=['a','a','b','b'], palavra2=['a','b','a','b']
+
+| Passo | Operação | contagem1 | contagem2 |
+|-------|----------|-----------|-----------|
+| 1 | Início | {} | {} |
+| 2 | Letra 'a' | {'a': 1} | {} |
+| 3 | Letra 'a' | {'a': 2} | {} |
+| 4 | Letra 'b' | {'a': 2, 'b': 1} | {} |
+| 5 | Letra 'b' | {'a': 2, 'b': 2} | {} |
+| 6 | Letra 'a' (pal2) | {'a': 2, 'b': 2} | {'a': 1} |
+| 7 | Letra 'b' (pal2) | {'a': 2, 'b': 2} | {'a': 1, 'b': 1} |
+| 8 | Letra 'a' (pal2) | {'a': 2, 'b': 2} | {'a': 2, 'b': 1} |
+| 9 | Letra 'b' (pal2) | {'a': 2, 'b': 2} | {'a': 2, 'b': 2} |
+
+**Resultado:** São iguais → Imprime "S"
+
+---
+
+## Conceitos utilizados
+
+| Conceito | Onde foi usado |
+|----------|---------------|
+| `dict` | Armazenar contagem de letras |
+| `.get(chave, 0)` | Contagem segura |
+| `for` | Iterar sobre letras |
+| `dict == dict` | Comparar dicionários |
+| `.split()` | Separar caracteres |
+
+---
+
+## Versão Alternativa
+
+Podemos usar um único dicionário com soma e subtração:
 
 ```python
 N = int(input())
@@ -129,16 +159,16 @@ print("S" if sao_anagramas else "N")
 
 ---
 
-## Próximos Passos
+## Erros Comuns
 
-Pratique com mais exercícios na seção [Praticar](../treinar/index.md).
+1. **Esquecer `.split()`**: Sem isso, a entrada é tratada como string única
+2. **Não usar `.get()`**: Acessar chave inexistante causa erro
+3. **Comparar com `in`**: Verifica apenas chaves, não valores
 
 ---
 
-## Resumo
+## Próximos Passos
 
-| Conceito | Aplicação |
-|----------|-----------|
-| `dict.get(k, 0)` | Contagem segura |
-| `dict == dict` | Comparar dicionários |
-| `.values()` | Iterar sobre valores |
+- [Praticar com dicionários](../treinar/index.md)
+- [Ver fundamentos de dicionários](../fundamentos/basico.md)
+- [Voltar para índice](../resolvidos/index.md)

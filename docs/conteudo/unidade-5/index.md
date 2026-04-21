@@ -1,6 +1,6 @@
 # Unidade 5 — Dicionários
 
-Nesta unidade, você aprenderá os fundamentos de dicionários em Python.
+Nesta unidade, você aprenderá os fundamentos de dicionários em Python, uma estrutura de dados essencial para resolver problemas de contagem e mapeamento.
 
 ---
 
@@ -12,6 +12,17 @@ Ao final, você deverá ser capaz de:
 - Acessar, adicionar e remover elementos
 - Iterar sobre dicionários
 - Resolver problemas de contagem e mapeamento
+- Aplicar dicionários em problemas da OBI
+
+---
+
+## Por que aprender dicionários?
+
+Dicionários são estruturas de dados extremamente úteis em programação competitiva porque:
+
+- **Busca rápida**: Acesso a elementos em tempo O(1)
+- **Contagem eficiente**: Contar frequência de elementos facilmente
+- **Flexibilidade**: Chaves podem ser de vários tipos
 
 ---
 
@@ -22,14 +33,14 @@ Conceitos teóricos sobre dicionários.
 
 | Tópico | Descrição |
 |--------|-----------|
-| [Conceitos Básicos](./fundamentos/basico.md) | Criação, acesso e manipulação |
+| [Conceitos Básicos](./fundamentos/basico.md) | Criação, acesso, manipulação e iteração |
 
 ### [Exercícios Resolvidos](./resolvidos/index.md)
 Problemas da OBI explicados passo a passo.
 
-| Problema | OBI |
-|----------|-----|
-| [Anagrama](./resolvidos/problema.md) | 2021 Fase 2 |
+| Problema | OBI | Tema |
+|----------|-----|------|
+| [Anagrama](./resolvidos/problema.md) | 2021 Fase 2 | Contagem de caracteres |
 
 ### [Praticar](./treinar/index.md)
 Atividades da OBI para treinar.
@@ -56,8 +67,9 @@ Unidade 5: Dicionários
 ├── Fundamentos
 │   └── Conceitos Básicos
 ├── Resolvidos
-│   └── Anagrama
+│   └── Anagrama (OBI 2021)
 └── Praticar
+    └── Dicionários
 ```
 
 ---
@@ -71,4 +83,17 @@ Unidade 5: Dicionários
 | `dict[key]` | Acesso por chave |
 | `in` | Verificar chave |
 | `.get()` | Acesso seguro |
-| `.keys()`, `.values()`, `.items()` | Iteração |
+| `.keys()` | Iterar sobre chaves |
+| `.values()` | Iterar sobre valores |
+| `.items()` | Iterar sobre pares |
+
+---
+
+##应用
+
+Dicionários são muito usados em:
+
+- Contagem de frequência
+- Mapeamento de caracteres
+- Agrupamento de dados
+- Busca por chave
