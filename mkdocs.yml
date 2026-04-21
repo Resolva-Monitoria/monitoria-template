@@ -190,3 +190,11 @@ nav:
         - Visão Geral: conteudo/unidade-4/index.md
       - Unidade 5 - Dicionários: 
         - Visão Geral: conteudo/unidade-5/index.md
+        - Fundamentos: 
+          - Visão Geral: conteudo/unidade-5/fundamentos/index.md
+          - Conceitos Básicos: conteudo/unidade-5/fundamentos/basico.md
+        - Exercícios Resolvidos:
+          - Visão Geral: conteudo/unidade-5/resolvidos/index.md
+          - Problema: conteudo/unidade-5/resolvidos/problema.md
+        - Para Treinar:
+          - Visão Geral: conteudo/unidade-5/treinar/index.md
