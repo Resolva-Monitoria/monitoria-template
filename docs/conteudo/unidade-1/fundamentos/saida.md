@@ -31,29 +31,39 @@ print(6 * 7) # Saída: 42
 
 Outra forma de exibir uma mensagem para o usuário é capturando seu valor em uma variável e exibindo a própria variável no método print().
 
-Note que a declaração de variáveis no Python não depende de palavras-chave, como const e let no JavaScript.
+Note que a declaração de variáveis no Python não depende de palavras-chave, como `const` e `let` no JavaScript.
 
 ```python
 nome = 'João da Silva'
-idade = 18
-print(nome, idade) # Saída: João da Silva 18
+idade = 67
+print(nome, idade) # Saída: João da Silva 67
 ```
 
 ### Concatenação
 
-A concatenação de variáveis e textos no Python pode ser feita de várias formas. A principal é utilizando um conceito chamado fstring, da seguinte forma:
+A concatenação de variáveis e textos no Python pode ser feita de várias formas. A principal é utilizando um conceito chamado **fstring**, da seguinte forma:
 
 ```python
 nome = 'João da Silva'
-idade = 18
-print(f'{nome} tem {idade} anos.') # João da Silva tem 18 anos.
+idade = 67
+print(f'{nome} tem {idade} anos.') # João da Silva tem 67 anos.
 ```
 
 Igualmente, podemos exibir expressões matemáticas com fstrings:
 ```python
 numero1 = 6
 numero2 = 7
-print(f'O número {numero1} multiplicado por {numero2} é igual a {numero1 * numero2}.') # O número 6 multiplicado por 7 é igual a 42.
+print(f'O número {numero1} multiplicado por {numero2} é igual a {numero1 * numero2}.') # Saída: O número 6 multiplicado por 7 é igual a 42.
 ```
+
+Também é possível regularmos as quantidades de casas decimais a serem exibidas, semelhante ao uso de `.toFixed()` no JavaScript:
+
+```python
+numero1 = 6
+numero2 = 7
+operacao = numero1 / numero2
+print(f'O número {numero1} dividido por {numero2} é igual a {operacao:.3f}') # Saída: O número 6 dividido por 7 é igual a 0.857
+```
+Note que, agora, estamos armazenando o resultado da operação matemática dentro de uma variável chamada operacao. o método :.3f é a forma que utilizamos, dentro das fstrings, para apresentar somente três digitos nas casas decimais.
 
 Visto isso, podemos seguir ao próximo passo para saber como pedir uma entrada ao usuário.
