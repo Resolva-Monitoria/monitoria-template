@@ -4,7 +4,7 @@ Nesta unidade, você aprenderá os fundamentos de leitura e escrita de dados em 
 
 ---
 
-## Objetivos
+## Objetivos:
 
 Ao final, você deverá ser capaz de:
 
@@ -14,7 +14,7 @@ Ao final, você deverá ser capaz de:
 
 ---
 
-## Estrutura da Unidade
+## Estrutura da Unidade:
 
 ### [Fundamentos](../unidade-1/fundamentos/index.md)
 Introdução aos conceitos de entrada e saída de dados.
