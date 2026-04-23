@@ -169,9 +169,15 @@ nav:
     - Unidade 1 - Entradas e Saídas:
       - Visão Geral: conteudo/unidade-1/index.md
       - Fundamentos:
-        - Visão Geral: conteudo/unidade-1/fundamentos/index.md
+        - Fundamentos: conteudo/unidade-1/fundamentos/index.md
         - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
         - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-1/resolvidos/index.md
+        - Números: conteudo/unidade-1/resolvidos/number.md
+        - Texto: conteudo/unidade-1/resolvidos/string.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-1/treinar/index.md
     - Unidade 2 - Condicionais:
       - Visão Geral: conteudo/unidade-2/index.md
     - Unidade 3 - Loops:
