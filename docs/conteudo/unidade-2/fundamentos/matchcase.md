@@ -191,7 +191,7 @@ match numero:
 ## Próximos Passos
 
 - [Voltar para condicionais](./ifelse.md)
-- [Praticar condicionais](../treinar/ifelse.md)
+- [Praticar condicionais](../resolvidos/index.md)
 
 ---
 
