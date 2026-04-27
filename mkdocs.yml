@@ -181,6 +181,15 @@ nav:
         - Treinar: conteudo/unidade-1/treinar/index.md
     - Unidade 2 - Condicionais: 
       - Visão Geral: conteudo/unidade-2/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-2/fundamentos/index.md
+        - If/else: conteudo/unidade-2/fundamentos/ifelse.md
+        - Match/case: conteudo/unidade-2/fundamentos/matchcase.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-2/resolvidos/index.md
+        - If/else: conteudo/unidade-2/resolvidos/index.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-2/treinar/index.md
     - Unidade 3 - Loops: 
       - Visão Geral: conteudo/unidade-3/index.md
       - Fundamentos: 
