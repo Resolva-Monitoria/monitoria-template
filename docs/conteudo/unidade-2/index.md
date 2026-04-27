@@ -48,7 +48,7 @@ Atividades da OBI para treinar.
 ## Navegação Rápida
 
 ```
-Unidade 3: Loops
+Unidade 2: Condicionais
 ├── Fundamentos
 │   ├── if/else
 │   └── match/case

@@ -2,7 +2,7 @@
 
 O `match/case` é uma estrutura de decisão introduzida no Python 3.10. Ele permite comparar um valor com vários casos possíveis, funcionando de forma semelhante a um "switch" em outras linguagens.
 
-Apesar de útil, seu uso é **menos comum em programação competitiva**, onde `if/elif` costuma ser suficiente.
+Apesar de útil, seu uso é **menos comum em programação competitiva**, onde `if/elif` costuma ser suficiente e mais frequentemente cobrado, visto que match/case **não é recomendado para comparações de intervalos ou condições complexas**.
 
 ---
 

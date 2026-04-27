@@ -301,8 +301,8 @@ elif nota >= 5:
 
 ## Próximos Passos
 
-- [Exercício resolvido com if](../resolvidos/ifelse.md)
-- [Praticar condicionais](../treinar/ifelse.md)
+- [Exercício resolvido com if](../resolvidos/index.md)
+- [Praticar condicionais](../treinar/index.md)
 - [Match/Case](./matchcase.md)
 
 ---
