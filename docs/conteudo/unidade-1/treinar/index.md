@@ -1,6 +1,6 @@
 # Praticar
 
-A melhor forma de aprender dicionários é resolvendo problemas reais. Aqui você encontra atividades da OBI para treinar manipulação de dicionários.
+A melhor forma de aprender entradas e saídas é resolvendo problemas reais. Aqui você encontra atividades da OBI referentes a tais ferramentas.
 
 ---
 
@@ -16,7 +16,7 @@ A melhor forma de aprender dicionários é resolvendo problemas reais. Aqui voc�
 ## Estrutura de Prática
 
 ### [Praticar com Entradas e Saídas](./index.md)
-Atividades específicas para treinar manipulação de dicionários.
+Atividades específicas para treinar manipulação de entradas e saídas.
 
 | Nível | Quantidade |
 |-------|------------|
@@ -62,4 +62,4 @@ Problemas que exigem mais raciocínio e lógica. Recomendado após dominar os f�
 |-------|-----------|
 | [Fundamentos](../fundamentos/basico.md) | Conceitos básicos |
 | [Resolvidos](../resolvidos/index.md) | Exercícios detalhados |
-| [Praticar](./index.md) | Atividades com dicionários |
+| [Praticar](./index.md) | Atividades com entradas e saídas |
