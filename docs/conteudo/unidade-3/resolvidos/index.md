@@ -1,22 +1,13 @@
 # Exercícios Resolvidos
 
-Aprender apenas a teoria não basta. É importante praticar com exercícios para entender como aplicar laços de repetição em diferentes situações.
-
-Nesta seção, vemos problemas da OBI explicados passo a passo, mostrando:
-- O enunciado do problema
-- A lógica de resolução
-- O código final comentado
-
----
+Aprender apenas a teoria não basta. É importante praticar com exercícios para entender como aplicar dicionários em diferentes situações.
 
 ## Objetivo
 
 Ao final desta seção, você deverá ser capaz de:
 
-- Interpretar problemas com repetição
-- Resolver exercícios usando `for`
-- Resolver exercícios usando `while`
-- Analisar entradas e saídas corretamente
+- Interpretar problemas com vetores
+- Analisar estruturas com listas corretamente
 
 ---
 
@@ -24,8 +15,7 @@ Ao final desta seção, você deverá ser capaz de:
 
 | Tema | Descrição |
 |------|-----------|
-| [Exercício com for](./for.md) | Problema "Cálculo Rápido" (OBI 2021) |
-| [Exercício com while](./while.md) | Problema "Dona Lesma" (OBI 2020) |
+| [Exercício com vetores](./problema.md) | Problema ["Idade de Dona Mônica"](https://olimpiada.ic.unicamp.br/pratique/pj/2019/f1/idade/) |
 
 ---
 
@@ -41,6 +31,5 @@ Ao final desta seção, você deverá ser capaz de:
 ## Fluxo de aprendizagem sugerido
 
 1. Aprenda a teoria nos [Fundamentos](../fundamentos/)
-2. Veja um exemplo resolvido com `for`
-3. See um exemplo resolvido with `while`
-4. [Pratique](../treinar/) com mais exercícios
+2. Veja um exemplo resolvido
+3. [Pratique](../treinar/) com mais exercícios

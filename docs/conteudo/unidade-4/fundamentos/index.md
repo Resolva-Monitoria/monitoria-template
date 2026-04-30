@@ -1,19 +1,41 @@
 # Fundamentos
 
-Em programação competitiva, são frequentes os problemas envolvendo a manipulação de listas. Isso significa que precisaremos de estruturas dentro do código que permitam salvar e recuperar dados rapidamente.
-No Python, a estrutura de manipulação de listas é chamada de vetores, e será sempre representada por um par de chaves: `[]`. Funciona semelhante aos arrays de JavaScript, aprendido no [Repositório de Programação I](https://github.com/ldmfabio/Programacao/blob/master/04_arrays/README.md).
+Laços de repetição são estruturas essenciais em programação que permitem executar um bloco de código múltiplas vezes. São fundamentais para resolver problemas que exigem processar múltiplos dados ou repetir operações.
 
-Ainda existem estruturas chamadas de matrizes, menos frequente, porém, fundamental para algumas questões de nível mais avançado em competições como a OBI. Ambas as estruturas serão apresentadas neste módulo.
+---
+
+## Por que aprender laços?
+
+Em programação competitiva e desenvolvimento de software, muitas tarefas exigem repetir um bloco de código várias vezes:
+
+- Processar todos os elementos de uma lista
+- Ler múltiplos valores de entrada
+- Calcular somas e médias
+- Validar dados até condição específica
+
+---
 
 ## Objetivo
 
 Ao final desta seção, você deverá ser capaz de:
 
-- usar `vetores`
-- usar `matrizes`
-- manipular listas no Python
+- Utilizar `for` com `range()` para repetições controladas
+- Utilizar `while` com condições para repetições indefinidas
+- Controlar loops com `break`, `continue` e `else`
 
-## Trilhas da Seção
+---
 
-- [Vetores](vetores.md)
-- [Matrizes](matriz.md)
+## Navegação
+
+| Tópico | Descrição |
+|--------|-----------|
+| [Laço `for`](./for.md) | Repetições com número conhecido de vezes |
+| [Laço `while`](./while.md) | Repetições baseadas em condições |
+
+---
+
+## Pré-requisitos
+
+- [Entrada e Saída de Dados](../../unidade-1/fundamentos/entrada.md)
+- [Variáveis e Tipos de Dados](../../unidade-1/fundamentos/saida.md)
+- [Condicionais (if/else)](../../unidade-2/fundamentos/) *(unidade anterior)*

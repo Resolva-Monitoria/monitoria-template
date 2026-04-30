@@ -1,6 +1,8 @@
-# Unidade 3 — Loops
+# Unidade 4 - Vetores
 
-Nesta unidade, você aprenderá os fundamentos de repetição de código em Python.
+Nesta unidade, você aprenderá os fundamentos de `vetores` em Python.
+
+Em resumo, vetores são listas para armazenar dados do seu programa no computador, e são frequentemente como `arrays`.
 
 ---
 
@@ -8,70 +10,53 @@ Nesta unidade, você aprenderá os fundamentos de repetição de código em Pyth
 
 Ao final, você deverá ser capaz de:
 
-- Utilizar o laço `for` para iterar sobre sequências
-- Utilizar o laço `while` para repetições baseadas em condições
-- Controlar a execução de um loop com `break`, `continue` e `else`
+- Criar e manipular listas em Python
+- Acessar, adicionar e remover elementos de uma lista
+- Resolver problemas envolvendo o uso de listas
+- Aplicar vetores em problemas da OBI
 
 ---
 
 ## Estrutura da Unidade
 
 ### [Fundamentos](./fundamentos/index.md)
-Conceitos teóricos sobre laços de repetição.
+Conceitos sobre estruturas de decisão.
 
 | Tópico | Descrição |
 |--------|-----------|
-| [Laço `for`](./fundamentos/for.md) | Repetições com número conhecido |
-| [Laço `while`](./fundamentos/while.md) | Repetições baseadas em condições |
+| [`Conceitos Básicos`](./fundamentos/vetores.md) | Conceitos básicos sobre vetores` |
 
 ### [Exercícios Resolvidos](./resolvidos/index.md)
 Problemas da OBI explicados passo a passo.
 
 | Problema | OBI | Laço |
 |----------|-----|------|
-| [Cálculo Rápido](./resolvidos/for.md) | 2021 | `for` |
-| [Dona Lesma](./resolvidos/while.md) | 2020 | `while` |
+| [](./resolvidos/.md) | 20XY |  |
 
 ### [Praticar](./treinar/index.md)
 Atividades da OBI para treinar.
 
-| Nível | Quantidade |
-|-------|------------|
-| Fácil | 3 problemas |
-| Difícil | 3 problemas |
 
 ---
 
 ## Pré-requisitos
 
 - [Unidade 1: Introdução](../unidade-1/index.md) — Entrada, saída, variáveis
-- [Unidade 2: Condicionais](../unidade-2/index.md) — if/else
+- [Unidade 2: Condicionais](../unidade-2/index.md) — Estruturas de decisão
+- [Unidade 3: Loops](../unidade-3/index.md) — Estruturas de repetição
 
 ---
 
 ## Navegação Rápida
 
 ```
-Unidade 3: Loops
+Unidade 3: Vetores
 ├── Fundamentos
-│   ├── for
-│   └── while
+│   ├── Conceitos Básicos
 ├── Resolvidos
-│   ├── for (Cálculo Rápido)
-│   └── while (Dona Lesma)
+│   ├── Idade de Dona Mônica (OBI 2019)
 └── Praticar
-    ├── for
-    └── while
+    ├── Vetores
 ```
 
 ---
-
-## Conceitos Principais
-
-| Conceito | Descrição |
-|----------|------------|
-| `for` | Repetição controlada (N vezes) |
-| `while` | Repetição condicional |
-| `range()` | Gera sequências numéricas |
-| `break` | Encerra o loop |
-| `continue` | Pula para próxima iteração |
