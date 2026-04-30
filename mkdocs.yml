@@ -50,7 +50,7 @@ extra:
 theme:
   name: material
   favicon: images/favicon.svg
-  logo: images/logo.svg
+  logo: images/logo.png
   language: pt-BR
   features:
     - announce.dismiss
@@ -152,15 +152,78 @@ extra_javascript:
 nav:
   - Início: index.md
 
+  - Utilizão do GitHub: github/index.md
+
   - Instalação do Python:
-    - Visão Geral: instalacao/index.md
-    - Instalação do Python no Linux: instalacao/linux/index.md
-    - Instalação do Python no Windows: instalacao/windows/index.md
-    - Instalação do Visual Studio Code: instalacao/vscode/index.md
+    - Instalação:
+      - Visão Geral: instalacao/index.md
+      - Instalação do Python no Linux: instalacao/linux/index.md
+      - Instalação do Python no Windows: instalacao/windows/index.md
+      - Instalação do Visual Studio Code: instalacao/vscode/index.md
 
   - Padrões de Codificação:
-    - Python:
-      - Visão Geral: padroes/python/index.md
-      - Entradas e Saídas: padroes/python/entradas_e_saidas.md
-      - Vetores: padroes/python/vetores.md
-      - Dicionários: padroes/python/dicionarios.md
+      - Python:
+          - Visão Geral: padroes/python/index.md
+          - Entradas e Saídas: padroes/python/entradas_e_saidas.md
+          - Vetores: padroes/python/vetores.md
+          - Dicionários: padroes/python/dicionarios.md
+
+  - Conteúdo do Curso:
+    - Unidade 1 - Entradas e Saídas:
+      - Visão Geral: conteudo/unidade-1/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-1/fundamentos/index.md
+        - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
+        - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-1/resolvidos/index.md
+        - Números: conteudo/unidade-1/resolvidos/number.md
+        - Texto: conteudo/unidade-1/resolvidos/string.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-1/treinar/index.md
+    - Unidade 2 - Condicionais: 
+      - Visão Geral: conteudo/unidade-2/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-2/fundamentos/index.md
+        - If/else: conteudo/unidade-2/fundamentos/ifelse.md
+        - Match/case: conteudo/unidade-2/fundamentos/matchcase.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-2/resolvidos/index.md
+        - If/else: conteudo/unidade-2/resolvidos/index.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-2/treinar/index.md
+    - Unidade 3 - Vetores: 
+      - Visão Geral: conteudo/unidade-4/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-4/fundamentos/index.md
+        - Conceitos Básicos: conteudo/unidade-4/fundamentos/vetores.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-4/resolvidos/index.md
+        - Vetores: conteudo/unidade-4/resolvidos/index.md
+    - Unidade 4 - Loops: 
+      - Visão Geral: conteudo/unidade-3/index.md
+      - Fundamentos: 
+        - Visão Geral: conteudo/unidade-3/fundamentos/index.md
+        - For: conteudo/unidade-3/fundamentos/for.md
+        - While: conteudo/unidade-3/fundamentos/while.md
+      - Exercícios Resolvidos:
+        - Visão Geral: conteudo/unidade-3/resolvidos/index.md
+        - For: conteudo/unidade-3/resolvidos/for.md
+        - While: conteudo/unidade-3/resolvidos/while.md
+      - Para Treinar:
+        - Visão Geral: conteudo/unidade-3/treinar/index.md
+        - For: conteudo/unidade-3/treinar/for.md
+        - While: conteudo/unidade-3/treinar/while.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-4/treinar/index.md
+    - Unidade 5 - Dicionários: 
+      - Visão Geral: conteudo/unidade-5/index.md
+      - Fundamentos: 
+        - Visão Geral: conteudo/unidade-5/fundamentos/index.md
+        - Conceitos Básicos: conteudo/unidade-5/fundamentos/basico.md
+      - Exercícios Resolvidos:
+        - Visão Geral: conteudo/unidade-5/resolvidos/index.md
+        - Problema: conteudo/unidade-5/resolvidos/problema.md
+      - Para Treinar:
+        - Visão Geral: conteudo/unidade-5/treinar/index.md
+        - Dicionários: conteudo/unidade-5/treinar/dicionario.md
