@@ -1,4 +1,4 @@
-# Unidade 4 - Vetores
+# Unidade 3 - Vetores
 
 Nesta unidade, você aprenderá os fundamentos de `vetores` em Python.
 
@@ -24,14 +24,14 @@ Conceitos sobre estruturas de decisão.
 
 | Tópico | Descrição |
 |--------|-----------|
-| [`Conceitos Básicos`](./fundamentos/vetores.md) | Conceitos básicos sobre vetores` |
+| [`Conceitos Básicos`](./fundamentos/vetores.md) | Conceitos básicos sobre vetores |
 
 ### [Exercícios Resolvidos](./resolvidos/index.md)
 Problemas da OBI explicados passo a passo.
 
-| Problema | OBI | Laço |
-|----------|-----|------|
-| [](./resolvidos/.md) | 20XY |  |
+| Problema | OBI |
+|----------|-----|
+| [Idade de Dona Mônica](./resolvidos/.md) | 2019 |
 
 ### [Praticar](./treinar/index.md)
 Atividades da OBI para treinar.
@@ -43,7 +43,6 @@ Atividades da OBI para treinar.
 
 - [Unidade 1: Introdução](../unidade-1/index.md) — Entrada, saída, variáveis
 - [Unidade 2: Condicionais](../unidade-2/index.md) — Estruturas de decisão
-- [Unidade 3: Loops](../unidade-3/index.md) — Estruturas de repetição
 
 ---
 

@@ -46,6 +46,7 @@ Atividades da OBI para treinar.
 
 - [Unidade 1: Introdução](../unidade-1/index.md) — Entrada, saída, variáveis
 - [Unidade 2: Condicionais](../unidade-2/index.md) — if/else
+- [Unidade 3: Vetores](../unidade-3/index.md) — Listas
 
 ---
 

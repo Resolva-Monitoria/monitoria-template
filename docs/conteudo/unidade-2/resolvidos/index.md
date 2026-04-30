@@ -1,6 +1,6 @@
 # Exercícios Resolvidos
 
-Aprender apenas a teoria não basta. É importante praticar com exercícios para entender como aplicar dicionários em diferentes situações.
+Aprender apenas a teoria não basta. É importante praticar com exercícios para entender como aplicar condicionais em diferentes situações.
 
 ## Objetivo
 

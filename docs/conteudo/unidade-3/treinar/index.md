@@ -1,6 +1,6 @@
 # Praticar
 
-A melhor forma de aprender estruturas de decisão é resolvendo problemas reais. Aqui você encontra atividades da OBI para treinar manipulação de vetores.
+A melhor forma de aprender vetores é resolvendo problemas reais. Aqui você encontra atividades da OBI para treinar manipulação de vetores.
 
 ---
 
