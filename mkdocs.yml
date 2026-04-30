@@ -50,7 +50,7 @@ extra:
 theme:
   name: material
   favicon: images/favicon.svg
-  logo: images/logo.svg
+  logo: images/logo.png
   language: pt-BR
   features:
     - announce.dismiss
@@ -151,6 +151,8 @@ extra_javascript:
 
 nav:
   - Início: index.md
+
+  - Utilizão do GitHub: github/index.md
 
   - Instalação do Python:
     - Instalação:
