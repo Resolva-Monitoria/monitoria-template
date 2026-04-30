@@ -28,10 +28,9 @@ Conceitos sobre estruturas de decisão.
 ### [Exercícios Resolvidos](./resolvidos/index.md)
 Problemas da OBI explicados passo a passo.
 
-| Problema | OBI | Laço |
-|----------|-----|------|
-| [](./resolvidos/.md) | 2021 |  |
-| [](./resolvidos/.md) | 2020 |  |
+| Problema | OBI |
+|----------|-----|
+| [Idade de Camila](./resolvidos/.md) | 2021 |
 
 ### [Praticar](./treinar/index.md)
 Atividades da OBI para treinar.

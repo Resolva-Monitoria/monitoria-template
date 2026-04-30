@@ -172,7 +172,7 @@ nav:
     - Unidade 1 - Entradas e Saídas:
       - Visão Geral: conteudo/unidade-1/index.md
       - Fundamentos:
-        - Fundamentos: conteudo/unidade-1/fundamentos/index.md
+        - Visão Geral: conteudo/unidade-1/fundamentos/index.md
         - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
         - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
       - Exercícios Resolvidos:
@@ -192,7 +192,15 @@ nav:
         - If/else: conteudo/unidade-2/resolvidos/index.md
       - Para Treinar:
         - Treinar: conteudo/unidade-2/treinar/index.md
-    - Unidade 3 - Loops: 
+    - Unidade 3 - Vetores: 
+      - Visão Geral: conteudo/unidade-4/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-4/fundamentos/index.md
+        - Conceitos Básicos: conteudo/unidade-4/fundamentos/vetores.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-4/resolvidos/index.md
+        - Vetores: conteudo/unidade-4/resolvidos/index.md
+    - Unidade 4 - Loops: 
       - Visão Geral: conteudo/unidade-3/index.md
       - Fundamentos: 
         - Visão Geral: conteudo/unidade-3/fundamentos/index.md
@@ -206,8 +214,8 @@ nav:
         - Visão Geral: conteudo/unidade-3/treinar/index.md
         - For: conteudo/unidade-3/treinar/for.md
         - While: conteudo/unidade-3/treinar/while.md
-    - Unidade 4 - Vetores: 
-      - Visão Geral: conteudo/unidade-4/index.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-4/treinar/index.md
     - Unidade 5 - Dicionários: 
       - Visão Geral: conteudo/unidade-5/index.md
       - Fundamentos: 
