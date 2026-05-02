@@ -1,0 +1,128 @@
+:root {
+  --primary-color: #1e88e5;
+  --primary-hover: #1565c0;
+  --text-color: #1a1a1a;
+  --radius: 10px;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b0f14;
+  --md-typeset-color: #e6edf3;
+}
+
+.md-typeset h1 {
+  color: var(--primary-color);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.md-typeset h1 {
+  margin-top: 1.2em;
+}
+
+.md-typeset h2 {
+  margin-top: 1.5em;
+}
+
+.md-typeset a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+.md-grid {
+  max-width: 1350px;
+}
+
+.md-typeset code {
+  border-radius: var(--radius);
+  padding: 3px 8px;
+  font-size: 0.9em;
+  background: rgba(30, 136, 229, 0.08);
+}
+
+.md-typeset pre {
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre {
+  box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+}
+
+.md-typeset table {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.md-typeset th {
+  background: rgba(30, 136, 229, 0.1);
+}
+
+.md-header {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.md-header__button.md-logo img {
+  height: 60px;
+  transition: transform 0.2s ease;
+}
+
+.md-header__button.md-logo img:hover {
+  transform: scale(1.05);
+}
+
+.md-nav__title {
+  font-weight: 700;
+}
+
+.md-nav__link {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.md-nav__link:hover {
+  background: rgba(30, 136, 229, 0.08);
+}
+
+.md-nav__link--active {
+  background: rgba(30, 136, 229, 0.15);
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #1e88e5;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 136, 229, 0.4);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 136, 229, 0.6);
+}
