@@ -152,7 +152,7 @@ extra_javascript:
 nav:
   - Início: index.md
 
-  - Utilizão do GitHub: github/index.md
+  - Utilização do GitHub: github/index.md
 
   - Instalação do Python:
     - Instalação:
@@ -200,6 +200,8 @@ nav:
       - Exercícios Resolvidos:
         - Exercícios: conteudo/unidade-4/resolvidos/index.md
         - Vetores: conteudo/unidade-4/resolvidos/index.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-3/treinar/index.md
     - Unidade 4 - Loops: 
       - Visão Geral: conteudo/unidade-3/index.md
       - Fundamentos: 
