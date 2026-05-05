@@ -1,193 +1,258 @@
-# Instalação do Python no Ubuntu
+# Instalação do Python — Linux
 
-> *"A melhor forma de aprender programação é colocando a mão no código."*
-
----
-
-## Sobre esta página
-
-Este guia mostra **passo a passo completo** como instalar o Python no Ubuntu usando o terminal.
-
-Você vai aprender:
-
-- Verificar se já tem Python instalado  
-- Instalar Python e pip  
-- Criar e executar seu primeiro programa  
-- Preparar seu ambiente corretamente  
+> *"No Linux, tudo começa pelo terminal."*
 
 ---
 
-## Abrindo o terminal
+## Passo 1 — Abrir o Terminal
 
-!!! tip "Abrindo o terminal"
-    Você pode abrir o terminal usando:
+```bash
+# Atalho padrão
+CTRL + ALT + T
 
-- Atalho: `CTRL + ALT + T`  
-- Ou pesquisando por **Terminal** no sistema  
+# Ou busque por "Terminal" no menu de aplicativos
+```
 
 ---
 
-## Verificando se o Python já está instalado
-
-!!! info "Passo 1"
-    Vamos verificar se o Python já existe no sistema.
-
-Digite no terminal:
+## Passo 2 — Verificar se o Python Já Está Instalado
 
 ```bash
 python3 --version
 ```
 
-Saída esperada (print simulado):
+**Se aparecer algo como:**
 
 ```bash
-paulo@ubuntu:~$ python3 --version
-Python 3.10.12
+$ python3 --version
+Python 3.12.3
 ```
 
-✔️ Se aparecer algo assim, você já tem Python instalado!  
-❗ Se aparecer erro, continue para a instalação.
+Você já tem Python instalado. Pule para o **Passo 5**.
+
+**Se aparecer erro:**
+
+```bash
+$ python3 --version
+bash: python3: comando não encontrado
+```
+
+Continue para o próximo passo.
 
 ---
 
-## Atualizando o sistema
-
-!!! warning "Passo 2"
-    Antes de instalar qualquer coisa, atualize o sistema.
+## Passo 3 — Atualizar o Sistema
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Print simulado:
+**O que este comando faz:**
+
+| Parte                          | Função                                      |
+|--------------------------------|---------------------------------------------|
+| `sudo`                         | Executa como administrador (root)            |
+| `apt update`                   | Atualiza a lista de pacotes disponíveis      |
+| `apt upgrade -y`               | Instala as atualizações automaticamente      |
+
+**Saída esperada:**
 
 ```bash
-paulo@ubuntu:~$ sudo apt update && sudo apt upgrade -y
-[sudo] senha for paulo:
-Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+$ sudo apt update && sudo apt upgrade -y
+[sudo] senha para usuario:
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
 Reading package lists... Done
 Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+Reading package lists... Done
+Building dependency tree... Done
+The following packages will be upgraded:
+  base-files curl libcurl4t64 linux-firmware
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 ```
 
 ---
 
-## Instalando Python e pip
-
-!!! warning "Passo 3"
-    Agora vamos instalar o Python e o gerenciador de pacotes pip.
+## Passo 4 — Instalar Python e pip
 
 ```bash
-sudo apt install python3 python3-pip -y
+sudo apt install python3 python3-pip python3-venv -y
 ```
 
-Print simulado:
+**O que cada pacote faz:**
+
+| Pacote           | Função                                        |
+|------------------|-----------------------------------------------|
+| `python3`        | Interpretador Python                          |
+| `python3-pip`    | Gerenciador de pacotes (instala bibliotecas)  |
+| `python3-venv`   | Cria ambientes virtuais isolados              |
+
+**Saída esperada:**
 
 ```bash
-paulo@ubuntu:~$ sudo apt install python3 python3-pip -y
+$ sudo apt install python3 python3-pip python3-venv -y
 Reading package lists... Done
 Building dependency tree... Done
-Installing:
-python3
-python3-pip
-Done.
+The following additional packages will be installed:
+  python3-dev python3-wheel
+The following NEW packages will be installed:
+  python3-pip python3-venv
+0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Setting up python3-pip (24.0+ubuntu1)...
+Setting up python3-venv (3.12.3-0ubuntu2)...
 ```
 
 ---
 
-## Confirmando a instalação
-
-!!! success "Passo 4"
-    Verifique se tudo foi instalado corretamente.
+## Passo 5 — Verificar a Instalação
 
 ```bash
 python3 --version
 pip3 --version
 ```
 
-Print simulado:
+**Saída esperada:**
 
 ```bash
-paulo@ubuntu:~$ python3 --version
-Python 3.10.12
+$ python3 --version
+Python 3.12.3
 
-paulo@ubuntu:~$ pip3 --version
-pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
+$ pip3 --version
+pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.12)
 ```
 
 ---
 
-## Criando seu primeiro programa
+## Passo 6 — Criar um Ambiente Virtual (Recomendado)
 
-!!! tip "Passo 5"
-    Vamos criar um arquivo Python simples.
+Ambientes virtuais isolam as dependências de cada projeto.
 
 ```bash
-nano teste.py
+# Criar o ambiente virtual
+python3 -m venv .venv
+
+# Ativar o ambiente
+source .venv/bin/activate
+
+# Verificar que está ativo
+which python3
 ```
 
-Digite dentro do arquivo:
+**Saída esperada:**
+
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+(.venv) $ which python3
+/home/usuario/projeto/.venv/bin/python3
+```
+
+> O prefixo `(.venv)` no terminal indica que o ambiente está ativo.
+
+**Para desativar:**
+
+```bash
+deactivate
+```
+
+---
+
+## Passo 7 — Criar e Executar o Primeiro Programa
+
+```bash
+# Criar arquivo
+nano ola.py
+```
+
+Digite o conteúdo:
 
 ```python
-print("Olá, mundo!")
+nome = input("Digite seu nome: ")
+print(f"Olá, {nome}! Bem-vindo à Monitoria!")
 ```
 
-Agora salve:
+Salve e saia do nano:
 
 ```
-CTRL + O → Enter
-CTRL + X
+CTRL + O  → Enter  (salva)
+CTRL + X           (sai)
+```
+
+Execute:
+
+```bash
+python3 ola.py
+```
+
+**Saída:**
+
+```bash
+$ python3 ola.py
+Digite seu nome: Maria
+Olá, Maria! Bem-vindo à Monitoria!
 ```
 
 ---
 
-## Executando o programa
+## (Opcional) — Usar `python` em vez de `python3`
+
+No Linux, o comando padrão é `python3`. Se quiser usar apenas `python`:
 
 ```bash
-python3 teste.py
+# Instalar o pacote python-is-python3
+sudo apt install python-is-python3 -y
+
+# Verificar
+python --version
 ```
 
-Print simulado:
+**Saída:**
 
 ```bash
-paulo@ubuntu:~$ python3 teste.py
-Olá, mundo!
-```
-
-Parabéns! Seu primeiro programa rodou com sucesso.
-
----
-
-## (Opcional) Usar comando python
-
-!!! note "Passo 6"
-    Por padrão usamos python3, mas você pode ativar o comando python.
-
-```bash
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
-```
-
-Agora funciona assim:
-
-```bash
-python teste.py
-```
-Print simulado:
-
-```bash
-paulo@ubuntu:~$ python teste.py
-Olá, mundo!
+$ python --version
+Python 3.12.3
 ```
 
 ---
 
-## Conclusão
+## (Opcional) — Instalar Versão Mais Recente do Python
 
-!!! success "Você concluiu!"
-    Agora você está pronto para programar 
+Se sua distribuição não tem a versão mais recente:
 
-Você tem:
+```bash
+# Adicionar repositório deadsnakes (Ubuntu)
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
 
--  Python instalado  
--  pip funcionando  
--  Terminal configurado  
--  Primeiro programa executado  
+# Instalar versão específica (ex: 3.13)
+sudo apt install python3.13 python3.13-venv python3.13-pip -y
+
+# Verificar
+python3.13 --version
+```
+
+---
+
+## Comandos Úteis do Terminal
+
+| Comando                          | Descrição                            |
+|----------------------------------|--------------------------------------|
+| `pwd`                            | Mostra o diretório atual             |
+| `ls`                             | Lista arquivos e pastas              |
+| `ls -la`                         | Lista com detalhes (ocultos também)  |
+| `cd caminho`                     | Entra em um diretório                |
+| `cd ..`                          | Volta um diretório                   |
+| `mkdir nome`                     | Cria um diretório                    |
+| `touch arquivo.py`               | Cria um arquivo vazio                |
+| `rm arquivo.py`                  | Remove um arquivo                    |
+| `rm -rf pasta/`                  | Remove um diretório e seu conteúdo   |
+| `cp origem destino`              | Copia arquivo                        |
+| `mv origem destino`              | Move/renomeia arquivo                |
+| `cat arquivo.py`                 | Mostra conteúdo do arquivo           |
+| `clear`                          | Limpa a tela do terminal             |
+| `history`                        | Mostra comandos anteriores           |
+| `which python3`                  | Mostra onde o Python está instalado  |
+
+---
