@@ -50,7 +50,7 @@ extra:
 theme:
   name: material
   favicon: images/favicon.svg
-  logo: images/logo.png
+  logo: assets/images/logo.png
   language: pt-BR
   features:
     - announce.dismiss

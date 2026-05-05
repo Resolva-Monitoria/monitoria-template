@@ -1,140 +1,191 @@
-# Instalação do Python no Windows
+# Instalação do Python — Windows
 
-> *"Todo programador começou com um simples print."*
-
----
-
-## Sobre esta página
-
-Este guia ensina como instalar o **Python no Windows** de forma correta e sem erros comuns.
-
-Você aprenderá:
-
-- Baixar o Python  
-- Instalar corretamente  
-- Configurar o PATH  
-- Executar programas  
+> *"No Windows, o segredo é marcar a opção certa na instalação."*
 
 ---
 
-## Download do Python
+## Passo 1 — Baixar o Python
 
-!!! info "Site oficial"
-    Sempre baixe o Python do site oficial:
+Acesse o site oficial:
 
 ```
 https://www.python.org/downloads/
 ```
 
----
+O site detecta seu sistema automaticamente. Clique no botão **"Download Python"**.
 
-## Etapa mais importante
-
-!!! danger "ATENÇÃO"
-    Durante a instalação, marque a opção:
-
-```
-Add Python to PATH
-```
-
-Sem isso, o Python pode não funcionar no terminal.
+> Sempre baixe do site oficial. Evite repositórios de terceiros.
 
 ---
 
-## Instalação
+## Passo 2 — Abrir o Instalador
 
-!!! tip "Instalando"
-    Após marcar a opção, clique em:
+Encontre o arquivo baixado (geralmente em `Downloads`) e execute:
 
 ```
-Install Now
+python-3.x.x-amd64.exe
 ```
 
 ---
 
-## Verificação
+## Passo 3 — Configurar a Instalação
 
-!!! success "Testando instalação"
-    Abra o CMD ou PowerShell:
+!!! danger "ATENÇÃO — Passo Mais Importante"
 
-```bash
+    Na tela de instalação, **MARQUE** a opção:
+
+    ```
+    ☑ Add python.exe to PATH
+    ```
+
+    Sem isso, o Python não funcionará no terminal.
+
+**Tela do instalador:**
+
+```
+┌─────────────────────────────────────────────────┐
+│         Install Python 3.x.x (64-bit)           │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  ☑ Add python.exe to PATH    ← MARQUE ISSO!    │
+│                                                 │
+│  [Install Now]     [Customize installation]     │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+Clique em **Install Now**.
+
+---
+
+## Passo 4 — Aguardar a Instalação
+
+O instalador vai:
+
+```
+Installing Python 3.x.x (64-bit)
+████████████████████████████████ 100%
+
+Setting up Python
+Installing pip
+Installing documentation
+Installing test suite
+```
+
+Clique em **Close** quando terminar.
+
+---
+
+## Passo 5 — Verificar a Instalação
+
+Abra o **PowerShell** ou **CMD**:
+
+```
+# Abrir pelo menu Iniciar
+# Digite: PowerShell
+# Pressione Enter
+```
+
+Verifique a instalação:
+
+```powershell
 python --version
 pip --version
 ```
 
-Saída esperada (print simulado):
+**Saída esperada:**
 
-```bash
-C:\Users\paulo> python --version
-Python 3.12.0
+```powershell
+PS C:\Users\usuario> python --version
+Python 3.12.3
 
-C:\Users\paulo> pip --version
-pip 23.2.1 from ...
+PS C:\Users\usuario> pip --version
+pip 24.0 from C:\Users\usuario\AppData\Local\Python312\Lib\site-packages\pip (python 3.12)
 ```
-
-Se aparecer a versão, está, tudo certo ✅
 
 ---
 
-## Primeiro programa
+## Passo 6 — Criar e Executar o Primeiro Programa
 
-!!! info "Criando arquivo"
-    Crie um arquivo chamado:
+```powershell
+# Criar uma pasta para o projeto
+mkdir projetos-python
+cd projetos-python
 
+# Criar o arquivo
+New-Item -Path "ola.py" -ItemType File
 ```
-teste.py
-```
 
-Conteúdo:
+Edite o arquivo `ola.py` com seu editor de texto e adicione:
 
 ```python
-print("Olá, mundo!")
+nome = input("Digite seu nome: ")
+print(f"Olá, {nome}! Bem-vindo à Monitoria!")
 ```
 
 Execute:
 
-```bash
-python teste.py
+```powershell
+python ola.py
 ```
 
-💻 Print simulado:
+**Saída:**
 
-```bash
-C:\Users\paulo> python teste.py
-Olá, mundo!
+```powershell
+PS C:\Users\usuario\projetos-python> python ola.py
+Digite seu nome: João
+Olá, João! Bem-vindo à Monitoria!
 ```
 
 ---
 
-## Problemas comuns
+## (Opcional) — Criar Ambiente Virtual
 
-!!! warning "Erro comum"
-    Se aparecer:
+```powershell
+# Criar ambiente virtual
+python -m venv .venv
 
+# Ativar
+.venv\Scripts\Activate.ps1
+
+# Verificar que está ativo
+where python
 ```
-python não é reconhecido como um comando interno ou externo
+
+**Saída:**
+
+```powershell
+PS C:\Users\usuario\projetos-python> python -m venv .venv
+PS C:\Users\usuario\projetos-python> .venv\Scripts\Activate.ps1
+(.venv) PS C:\Users\usuario\projetos-python> where python
+C:\Users\usuario\projetos-python\.venv\Scripts\python.exe
 ```
 
-### Solução:
+> O prefixo `(.venv)` indica que o ambiente está ativo.
 
-- Reinstalar o Python  
-- Marcar **Add Python to PATH**  
-- Ou configurar o PATH manualmente  
+**Para desativar:**
+
+```powershell
+deactivate
+```
 
 ---
 
-## Dica
+## Comandos Úteis do PowerShell
 
-!!! tip "Terminal"
-    Use o **Windows Terminal** ou **PowerShell** para melhor experiência.
+| Comando                              | Descrição                            |
+|--------------------------------------|--------------------------------------|
+| `Get-Location` / `pwd`               | Mostra diretório atual               |
+| `Get-ChildItem` / `dir` / `ls`       | Lista arquivos e pastas              |
+| `Set-Location caminho` / `cd caminho`| Entra em um diretório                |
+| `cd ..`                              | Volta um diretório                   |
+| `New-Item -ItemType Directory -Path nome` | Cria diretório              |
+| `New-Item -Path arquivo.py -ItemType File` | Cria arquivo vazio         |
+| `Remove-Item arquivo.py`             | Remove arquivo                       |
+| `Remove-Item -Recurse pasta/`        | Remove diretório e conteúdo          |
+| `Copy-Item origem destino`           | Copia arquivo                        |
+| `Move-Item origem destino`           | Move/renomeia arquivo                |
+| `Get-Content arquivo.py` / `cat`     | Mostra conteúdo do arquivo           |
+| `Clear-Host` / `cls`                 | Limpa a tela                         |
 
----
-
-## Conclusão
-
-!!! success "Resultado"
-    Agora você tem:
-
-- Python instalado no Windows  
-- Terminal funcionando  
-- Ambiente pronto para programar  
+--- 

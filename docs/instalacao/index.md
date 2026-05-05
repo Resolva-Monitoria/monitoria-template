@@ -1,95 +1,94 @@
-# Visão geral do ambiente de programação
+# Visão Geral — Ambiente de Programação
 
-> *"Antes de programar, é importante entender o ambiente."*
-
----
-
-## Sobre esta página
-
-Esta seção apresenta uma **visão geral** das ferramentas que você vai utilizar.
-
-Aqui você ainda não vai instalar nada — apenas entender **como tudo se conecta**.
+> *"Antes de escrever código, entenda as ferramentas que você vai usar."*
 
 ---
 
-## O que você vai usar
+## O Que Você Precisa
 
-Para começar a programar em Python, você precisa de três coisas principais:
+Para programar em Python, você precisa de três componentes:
 
-### Python
-É a linguagem de programação.
-
-- Responsável por executar seu código  
-- Interpreta os arquivos `.py`  
-- Já vem com várias funcionalidades prontas  
-
----
-
-### Editor de código (VS Code)
-É onde você escreve seus programas.
-
-- Facilita a leitura e organização do código  
-- Oferece sugestões automáticas  
-- Permite executar o código facilmente  
+| Componente        | Função                                    |
+|-------------------|-------------------------------------------|
+| **Python**        | Interpretador — executa seu código `.py`  |
+| **VS Code**       | Editor — onde você escreve e organiza código |
+| **Terminal**      | Interface — roda programas e instala pacotes |
 
 ---
 
-### Terminal
-É onde você executa comandos.
-
-- Rodar programas Python  
-- Instalar bibliotecas  
-- Navegar entre arquivos  
-
----
-
-## Como tudo funciona junto
-
-O fluxo básico é este:
+## Como Tudo Funciona
 
 ```
-Você escreve código → VS Code
-        ↓
-Salva arquivo (.py)
-        ↓
-Executa no terminal
-        ↓
-Python roda o código
-        ↓
-Resultado aparece na tela
+┌─────────────────────────────────────────────┐
+│           Fluxo de Desenvolvimento           │
+├─────────────────────────────────────────────┤
+│                                             │
+│  1. Você escreve código  →  VS Code         │
+│           ↓                                 │
+│  2. Salva como arquivo   →  .py             │
+│           ↓                                 │
+│  3. Executa no terminal  →  python app.py   │
+│           ↓                                 │
+│  4. Python interpreta    →  Resultado       │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-## Exemplo simples
+## Verificando se Tudo Está Instalado
 
-Arquivo:
-
-```python
-print("Olá, mundo!")
-```
-
-Execução no terminal:
+Abra o terminal e rode:
 
 ```bash
-python teste.py
+# Verificar Python
+python3 --version
+# ou no Windows:
+python --version
+
+# Verificar pip (gerenciador de pacotes)
+pip3 --version
+
+# Verificar VS Code (se estiver no PATH)
+code --version
 ```
 
-Saída:
+**Saída esperada:**
 
-```
-Olá, mundo!
+```bash
+$ python3 --version
+Python 3.12.3
+
+$ pip3 --version
+pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.12)
+
+$ code --version
+1.89.0
 ```
 
 ---
 
-## Próximos passos
+## Ordem de Instalação
 
-Agora que você entendeu o básico, siga esta ordem:
+Siga esta sequência:
 
-1. Instalar o Python  
-2. Instalar o VS Code  
-3. Configurar o ambiente  
-4. Criar seus primeiros programas  
+| Passo | Ação                          | Guia                                  |
+|-------|-------------------------------|---------------------------------------|
+| 1     | Instalar Python               | [Linux](linux/index.md) / [Windows](windows/index.md) |
+| 2     | Instalar VS Code              | [VS Code](vscode/index.md)            |
+| 3     | Configurar extensões          | [VS Code](vscode/index.md)            |
+| 4     | Clone este repositório        | [GitHub](../github/index.md)          |
 
 ---
+
+## Terminal — Comandos Básicos
+
+| Ação                  | Linux/macOS         | Windows             |
+|-----------------------|---------------------|---------------------|
+| Listar arquivos       | `ls`                | `dir`               |
+| Entrar em pasta       | `cd nome-da-pasta`  | `cd nome-da-pasta`  |
+| Voltar uma pasta      | `cd ..`             | `cd ..`             |
+| Criar pasta           | `mkdir nome`        | `mkdir nome`        |
+| Criar arquivo         | `touch arquivo.py`  | `type nul > arquivo.py` |
+| Limpar tela           | `clear`             | `cls`               |
+| Executar Python       | `python3 arquivo.py`| `python arquivo.py` |
