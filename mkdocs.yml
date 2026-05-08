@@ -206,6 +206,14 @@ nav:
         - While: conteudo/unidade-3/treinar/while.md
     - Unidade 4 - Vetores: 
       - Visão Geral: conteudo/unidade-4/index.md
+      - Fundamentos:
+        - Visão Geral: conteudo/unidade-4/fundamentos/index.md
+        - Conceitos Básicos: conteudo/unidade-4/fundamentos/vetores.md
+      - Exercícios Resolvidos:
+        - Exercícios: conteudo/unidade-4/resolvidos/index.md
+        - Vetores: conteudo/unidade-4/resolvidos/index.md
+      - Para Treinar:
+        - Treinar: conteudo/unidade-4/treinar/index.md
     - Unidade 5 - Dicionários: 
       - Visão Geral: conteudo/unidade-5/index.md
       - Fundamentos: 
