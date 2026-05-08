@@ -1,6 +1,6 @@
 # Praticar
 
-A melhor forma de aprender laços de repetição é resolvendo problemas reais. Aqui você encontra atividades da OBI para treinar `for` e `while`.
+A melhor forma de aprender vetores é resolvendo problemas reais. Aqui você encontra atividades da OBI para treinar manipulação de vetores.
 
 ---
 
@@ -13,6 +13,18 @@ A melhor forma de aprender laços de repetição é resolvendo problemas reais. 
 
 ---
 
+## Estrutura de Prática
+
+### [Praticar com Vetores](./index.md)
+Atividades específicas para treinar manipulação de vetores.
+
+| Nível | Quantidade |
+|-------|------------|
+| Fácil | 2 problemas |
+| Difícil | 2 problemas |
+
+---
+
 ## Atividades Recomendadas
 
 ### Nível Fácil
@@ -21,9 +33,8 @@ Problemas simples para fixar o conceito. Recomendado para quem está começando.
 
 | # | Problema | Ano | Link |
 |---|----------|-----|------|
-| 1 | Torneio de Tênis | OBI 2021 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f1/torneio/) |
-| 2 | Jogo dos Pinos | OBI 2020 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f2/pinos/) |
-| 3 | Dominó | OBI 2019 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2019/f1/domino/) |
+| 1 | Letras | OBI 2014 Fase 1 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/p1/2014/f1/letra/) |
+| 2 | Lâmpadas | OBI 2016 Fase 1 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2016/f1/lampadas/) |
 
 ### Nível Difícil
 
@@ -31,27 +42,8 @@ Problemas que exigem mais raciocínio e lógica. Recomendado após dominar os f�
 
 | # | Problema | Ano | Link |
 |---|----------|-----|------|
-| 1 | Pares de Números | OBI 2019 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2019/f3/pares/) |
-| 2 | Média ou Mediana | OBI 2021 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/media/) |
-| 3 | Potência | OBI 2021 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/potencia/) |
-
----
-
-## Dicas
-
-- Use `for` quando souber **quantas vezes** repetir
-- Use `while` quando não souber o número de repetições
-- Sempre verifique a **condição de parada**
-- Teste com os **exemplos** da questão antes de submeter
-
----
-
-## Navegação
-
-| Seção | Descrição |
-|-------|-----------|
-| [Praticar com for](./for.md) | Atividades específicas para laço for |
-| [Praticar com while](./while.md) | Atividades específicas para laço while |
+| 1 | Vestibular | OBI 2008 Fase 1 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/pj/2008/f1/vestib/) |
+| 2 | Tempo de Resposta | OBI 2021 Fase 1 | [Resolver](https://olimpiada.ic.unicamp.br/pratique/p1/2021/f1/tempo/) |
 
 ---
 
@@ -61,3 +53,13 @@ Problemas que exigem mais raciocínio e lógica. Recomendado após dominar os f�
 2. Veja exemplos → [Exercícios Resolvidos](../resolvidos/)
 3. Pratique aqui → **Praticar** *(página atual)*
 4. Repita até dominar
+
+---
+
+## Navegação
+
+| Seção | Descrição |
+|-------|-----------|
+| [Fundamentos](../fundamentos/index.md) | Conceitos básicos |
+| [Resolvidos](../resolvidos/index.md) | Exercícios detalhados |
+| [Praticar](./index.md) | Atividades com vetores |
