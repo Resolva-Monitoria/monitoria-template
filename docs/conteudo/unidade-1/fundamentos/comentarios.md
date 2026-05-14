@@ -24,7 +24,7 @@ print("Olá, Mundo!") # Exibe uma mensagem no terminal
 
 ## Comentários de Múltiplas Linhas
 
-Para escrever comentários maiores, de múltiplas linhas, podemos utilizar três aspas duplas `"""`:
+Para escrever anotações maiores, de múltiplas linhas, podemos utilizar três aspas duplas `"""`:
 
 ```python
 """
@@ -34,7 +34,7 @@ de múltiplas linhas.
 print("Olá mundo")
 ```
 
-Podemos também utilizae aspas simples `'''`:
+Podemos também utilizar aspas simples `'''`:
 
 ```python
 '''
@@ -43,6 +43,7 @@ desta forma.
 '''
 print("Olá mundo")
 ```
+> A título de curiosidade, anotações de múltiplas linhas, com aspas, não são comentários conceitualmente. Na verdade, são strings ignoradas pelo Python na leitura do código por não ser utilizada. Porém, no nosso treinamento para provas olímpicas, podemos interpretá-las como comentários.
 
 ---
 
@@ -108,7 +109,7 @@ resultado = numero1 * numero2
 
 **Problema:** o comentário diz uma coisa, mas o código faz outra.
 
-### Erro 2: Comentar antes do código
+### Erro 3: Comentar antes do código
 
 ```python
 # Soma os números resultado = numero1 * numero2

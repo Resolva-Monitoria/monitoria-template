@@ -31,6 +31,8 @@ print(6 * 7) # Saída: 42
 
 Outra forma de exibir uma mensagem para o usuário é capturando seu valor em uma variável e exibindo a própria variável no método print().
 
+**Variáveis são como caixinhas que armazenam informações**, sejam elas textuais, númericas, etc.
+
 Note que a declaração de variáveis no Python não depende de palavras-chave, como `const` e `let` no JavaScript.
 
 ```python
