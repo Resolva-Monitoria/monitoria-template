@@ -64,10 +64,10 @@ A tipagem de dados no Python é importante para organização e legibilidade do 
 Os números `float` possuem casas decimais.
 
 ```python
-altura = 1.67
+altura = 1.80
 preco = 9.99
 
-print(altura) # Saída: 1.67
+print(altura) # Saída: 1.80
 print(type(altura)) # Saída: <class 'float'>
 ```
 
@@ -200,13 +200,13 @@ print(numero1 + numero2)
 
 **Entrada**
 ```python
-6
-7
+2
+3
 ```
 
 **Saída**
 ```python
-67
+23
 ```
 
 **Problema:** `input()` retorna texto.
@@ -221,13 +221,13 @@ print(numero1 + numero2)
 ```
 **Entrada**
 ```python
-6
-7
+2
+3
 ```
 
 **Saída**
 ```python
-13
+5
 ```
 
 ---
