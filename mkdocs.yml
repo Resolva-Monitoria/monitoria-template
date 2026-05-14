@@ -167,12 +167,13 @@ nav:
           - Dicionários: padroes/python/dicionarios.md
 
   - Conteúdo do Curso:
-    - Unidade 1 - Entradas e Saídas:
+    - Unidade 1 - Variáveis e Operadores:
       - Visão Geral: conteudo/unidade-1/index.md
       - Fundamentos:
         - Fundamentos: conteudo/unidade-1/fundamentos/index.md
         - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
         - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
+        - Comentários: conteudo/unidade-1/fundamentos/comentarios.md
       - Exercícios Resolvidos:
         - Exercícios: conteudo/unidade-1/resolvidos/index.md
         - Números: conteudo/unidade-1/resolvidos/number.md
