@@ -168,6 +168,8 @@ nav:
           - Vetores: padroes/python/vetores.md
           - Dicionários: padroes/python/dicionarios.md
 
+  - Resumo Rápido: resumo/index.md
+
   - Conteúdo do Curso:
     - Unidade 1 - Entradas e Saídas:
       - Visão Geral: conteudo/unidade-1/index.md
