@@ -174,17 +174,17 @@ nav:
         - Saída de Dados: conteudo/unidade-1/fundamentos/saida.md
         - Entrada de Dados: conteudo/unidade-1/fundamentos/entrada.md
         - Comentários: conteudo/unidade-1/fundamentos/comentarios.md
-        - Tipos de variáveis: conteudo/unidade-1/fundamentos/tipos.md
+        - Tipos de Variáveis: conteudo/unidade-1/fundamentos/tipos.md
       - Exercícios Resolvidos:
         - Exercícios: conteudo/unidade-1/resolvidos/index.md
-        - Números: conteudo/unidade-1/resolvidos/number.md
-        - Texto: conteudo/unidade-1/resolvidos/string.md
+        - Exercícios com Números: conteudo/unidade-1/resolvidos/number.md
+        - Exercícios com Texto: conteudo/unidade-1/resolvidos/string.md
       - Para Treinar:
         - Treinar: conteudo/unidade-1/treinar/index.md
     - Unidade 2 - Condicionais: 
-      - Visão Geral: conteudo/unidade-2/index.md
+      - Visão Geral - Condicionais: conteudo/unidade-2/index.md
       - Fundamentos:
-        - Visão Geral: conteudo/unidade-2/fundamentos/index.md
+        - Fundamentos de Condicionais: conteudo/unidade-2/fundamentos/index.md
         - If/else: conteudo/unidade-2/fundamentos/ifelse.md
         - Match/case: conteudo/unidade-2/fundamentos/matchcase.md
       - Exercícios Resolvidos:
@@ -193,23 +193,23 @@ nav:
       - Para Treinar:
         - Treinar: conteudo/unidade-2/treinar/index.md
     - Unidade 3 - Loops: 
-      - Visão Geral: conteudo/unidade-3/index.md
+      - Visão Geral - Loops: conteudo/unidade-3/index.md
       - Fundamentos: 
-        - Visão Geral: conteudo/unidade-3/fundamentos/index.md
+        - Fundamentos de Loops: conteudo/unidade-3/fundamentos/index.md
         - For: conteudo/unidade-3/fundamentos/for.md
         - While: conteudo/unidade-3/fundamentos/while.md
       - Exercícios Resolvidos:
-        - Visão Geral: conteudo/unidade-3/resolvidos/index.md
+        - Exercícios: conteudo/unidade-3/resolvidos/index.md
         - For: conteudo/unidade-3/resolvidos/for.md
         - While: conteudo/unidade-3/resolvidos/while.md
       - Para Treinar:
-        - Visão Geral: conteudo/unidade-3/treinar/index.md
+        - Treinar: conteudo/unidade-3/treinar/index.md
         - For: conteudo/unidade-3/treinar/for.md
         - While: conteudo/unidade-3/treinar/while.md
     - Unidade 4 - Vetores: 
-      - Visão Geral: conteudo/unidade-4/index.md
+      - Visão Geral - Vetores: conteudo/unidade-4/index.md
       - Fundamentos:
-        - Visão Geral: conteudo/unidade-4/fundamentos/index.md
+        - Fundamentos de Vetores: conteudo/unidade-4/fundamentos/index.md
         - Conceitos Básicos: conteudo/unidade-4/fundamentos/vetores.md
       - Exercícios Resolvidos:
         - Exercícios: conteudo/unidade-4/resolvidos/index.md
@@ -217,13 +217,13 @@ nav:
       - Para Treinar:
         - Treinar: conteudo/unidade-4/treinar/index.md
     - Unidade 5 - Dicionários: 
-      - Visão Geral: conteudo/unidade-5/index.md
+      - Visão Geral - Dicionários: conteudo/unidade-5/index.md
       - Fundamentos: 
         - Visão Geral: conteudo/unidade-5/fundamentos/index.md
         - Conceitos Básicos: conteudo/unidade-5/fundamentos/basico.md
       - Exercícios Resolvidos:
-        - Visão Geral: conteudo/unidade-5/resolvidos/index.md
+        - Exercícios: conteudo/unidade-5/resolvidos/index.md
         - Problema: conteudo/unidade-5/resolvidos/problema.md
       - Para Treinar:
-        - Visão Geral: conteudo/unidade-5/treinar/index.md
+        - Treinar: conteudo/unidade-5/treinar/index.md
         - Dicionários: conteudo/unidade-5/treinar/dicionario.md
